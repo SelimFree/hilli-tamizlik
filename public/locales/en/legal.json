@@ -1,0 +1,104 @@
+{
+  "custom": {
+    "lastUpdatedLabel": "Last Updated: "
+  },
+
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "April 10, 2026",
+
+    "section1": {
+      "title": "1. Introduction",
+      "text": "At {{company}}, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website."
+    },
+
+    "section2": {
+      "title": "2. The Data We Collect",
+      "text": "We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:",
+      "dataList": [
+        {
+          "label": "Identity Data:",
+          "desc": "Includes first name, last name, and title."
+        },
+        {
+          "label": "Contact Data:",
+          "desc": "Includes email address and telephone numbers."
+        },
+        {
+          "label": "Technical Data:",
+          "desc": "Includes IP address, browser type, and time zone setting."
+        },
+        {
+          "label": "Usage Data:",
+          "desc": "Includes information about how you use our website."
+        }
+      ]
+    },
+
+    "section3": {
+      "title": "3. Data Security",
+      "text": "We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way."
+    }
+  },
+
+  "termsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "April 10, 2026",
+
+    "section1": {
+      "title": "1. Acceptance of Terms",
+      "text": "By accessing or using the {{company}} website, you agree to be bound by these Terms of Service and all applicable laws and regulations."
+    },
+
+    "section2": {
+      "title": "2. Use License",
+      "text": "Under this license, you may not:",
+      "list": [
+        "Modify or copy the materials for commercial use;",
+        "Attempt to decompile or reverse engineer any software on the site;",
+        "Remove any copyright or other proprietary notations;",
+        "Transfer the materials to another person or 'mirror' the materials."
+      ]
+    },
+
+    "section3": {
+      "title": "3. Governing Law",
+      "text": "These terms and conditions are governed by and construed in accordance with the laws of the {{country}}."
+    }
+  },
+
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "April 10, 2026",
+
+    "section1": {
+      "title": "1. What Are Cookies?",
+      "text": "Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide information to the owners of the site."
+    },
+
+    "section2": {
+      "title": "2. How We Use Cookies",
+      "text": "We use cookies for several reasons, including:",
+      "list": [
+        {
+          "label": "Essential Cookies:",
+          "desc": "Necessary for the website to function (e.g., security and accessibility)."
+        },
+        {
+          "label": "Performance Cookies:",
+          "desc": "Help us understand how visitors interact with our site by collecting and reporting information anonymously."
+        },
+        {
+          "label": "Functional Cookies:",
+          "desc": "Allow the site to remember choices you make (like your language) to provide enhanced features."
+        }
+      ]
+    },
+
+    "section3": {
+      "title": "3. Managing Your Preferences",
+      "textBefore": "Most web browsers allow some control of most cookies through the browser settings. To find out more about cookies, including how to see what cookies have been set and how to manage and delete them, visit ",
+      "linkText": "allaboutcookies.org"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Policy"
+  },
+
+  "footer": {
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookie": "Cookie Policy",
+    "slogan": "Your Slogan can be written here",
+    "rights": "© {{year}} {{company}}. All rights reserved."
+  },
+
+  "cookieBanner": {
+    "title": "Cookie Policy",
+    "body": "We use cookies to analyze traffic and optimize your experience. By clicking \"Accept\", you agree to our use of cookies.",
+    "accept": "Accept",
+    "more": "Learn More"
+  },
+
+  "finalCtaBlock": {
+    "title": "Ready to Elevate Your Operations?",
+    "subtitle": "Contact us today to discover how our process instrumentation and laboratory solutions can drive your success.",
+    "reachBtn": "Contact Us"
+  },
+
+  "notFoundPage": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "body": "Sorry, we couldn't find the page you're looking for.\n It might have been moved or deleted.",
+    "returnBtn": "Back to Home"
+  },
+
+  "errorPage": {
+    "title": "Something went wrong",
+    "subtitle": "We encountered an unexpected error on our end. Please try refreshing the page or contact support if the problem persists.",
+    "refreshBtn": "Refresh Page"
+  },
+
+  "loading": {
+    "message": "Loading"
+  }
+}

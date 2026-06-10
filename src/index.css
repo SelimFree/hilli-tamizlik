@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Greyscale */
+  --color-gray-50: hsl(210, 40%, 98%);
+  --color-gray-100: hsl(210, 40%, 96%);
+  --color-gray-200: hsl(210, 40%, 90%);
+  --color-gray-300: hsl(210, 40%, 80%);
+  --color-gray-400: hsl(210, 40%, 65%);
+  --color-gray-500: hsl(210, 40%, 45%);
+  --color-gray-600: hsl(210, 38%, 35%);
+  --color-gray-700: hsl(210, 35%, 25%);
+  --color-gray-800: hsl(210, 30%, 18%);
+  --color-gray-900: hsl(210, 30%, 12%);
+
+  /* Danger / Destructive */
+  --color-danger-50: hsl(0, 100%, 97%);
+  --color-danger-100: hsl(0, 100%, 93%);
+  --color-danger-500: hsl(0, 84%, 60%);
+  --color-danger-600: hsl(0, 72%, 50%);
+
+  /* Success */
+  --color-success-50: hsl(142, 76%, 97%);
+  --color-success-100: hsl(142, 76%, 90%);
+  --color-success-500: hsl(142, 71%, 45%);
+  --color-success-600: hsl(142, 76%, 36%);
+
+  /* 
+    Brand Primary Shade Colors (Emerald / Forest Green tones from Logo)
+  */
+  --color-primary-50: hsl(145, 65%, 96%);
+  --color-primary-100: hsl(145, 60%, 90%);
+  --color-primary-200: hsl(145, 55%, 80%);
+  --color-primary-300: hsl(145, 50%, 68%);
+  --color-primary-400: hsl(145, 48%, 52%);
+  --color-primary-500: hsl(145, 63%, 42%);
+  --color-primary-600: hsl(145, 67%, 32%);
+  --color-primary-700: hsl(145, 70%, 24%);
+  --color-primary-800: hsl(145, 75%, 16%);
+  --color-primary-900: hsl(145, 80%, 10%);
+
+  /* 
+    Brand Secondary Shade Colors (Fresh Teal / Gradient Sparkle tones from Logo)
+  */
+  --color-secondary-50: hsl(175, 70%, 96%);
+  --color-secondary-100: hsl(175, 65%, 90%);
+  --color-secondary-200: hsl(175, 60%, 80%);
+  --color-secondary-300: hsl(175, 55%, 68%);
+  --color-secondary-400: hsl(175, 60%, 50%);
+  --color-secondary-500: hsl(175, 75%, 38%);
+  --color-secondary-600: hsl(175, 80%, 30%);
+  --color-secondary-700: hsl(175, 85%, 22%);
+
+  /* Base Color Assignments */
+  --color-primary: var(--color-primary-700);
+  --color-secondary: var(--color-secondary-500);
+  --color-success: var(--color-success-500);
+  --color-danger: var(--color-danger-500);
+
+  /* Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1.25rem;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-gray-900 bg-gray-50 antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-gray-300);
+    border-radius: var(--radius-lg);
+    transition: background 0.2s ease;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-400);
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-gray-300) transparent;
+  }
+}
+
+@layer utilities {
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 40s linear infinite;
+  }
+}
