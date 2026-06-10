@@ -92,12 +92,25 @@ export const Navbar = forwardRef<HTMLElement, NavbarProps>(
             <Button
               variant="ghost"
               size="sm"
-              className="px-2 text-gray-700 hover:bg-gray-100 hover:text-primary-600 md:hidden"
+              className="relative h-10 w-10 p-0 flex items-center justify-center text-gray-700 hover:bg-gray-100 hover:text-primary-600 md:hidden overflow-hidden rounded-xl"
               onClick={() => setIsOpen(!isOpen)}
               aria-expanded={isOpen}
               aria-label="Toggle navigation menu"
             >
-              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              <div className="relative h-6 w-6 flex items-center justify-center">
+                <Menu
+                  className={cn(
+                    "absolute h-6 w-6 transition-all duration-300 ease-in-out transform",
+                    isOpen ? "opacity-0 rotate-90 scale-50" : "opacity-100 rotate-0 scale-100"
+                  )}
+                />
+                <X
+                  className={cn(
+                    "absolute h-6 w-6 transition-all duration-300 ease-in-out transform",
+                    isOpen ? "opacity-100 rotate-0 scale-100" : "opacity-0 -rotate-90 scale-50"
+                  )}
+                />
+              </div>
             </Button>
           </div>
         </div>

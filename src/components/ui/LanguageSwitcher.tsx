@@ -39,13 +39,12 @@ export function LanguageSwitcher() {
         className="flex items-center gap-1.5 px-2 py-1.5 h-auto hover:bg-gray-100 rounded-md transition-all"
       >
         <Globe className="h-3.5 w-3.5 text-gray-600" />
-        <span className="hidden md:inline-block text-[12px] font-bold tracking-widest text-gray-700 uppercase">
+        <span className="hidden md:inline-block text-[13px] font-bold tracking-widest text-gray-700 uppercase">
           {currentLang.label}
         </span>
         <ChevronDown className={cn("h-3 w-3 text-gray-400 transition-transform duration-300", isOpen && "rotate-180")} />
       </Button>
 
-      {/* Animated Dropdown */}
       <div
         className={cn(
           "absolute right-0 top-full mt-2 w-32 origin-top-right overflow-hidden rounded-lg border border-gray-100 bg-white shadow-xl transition-all duration-200 ease-out",
