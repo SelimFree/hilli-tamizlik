@@ -86,7 +86,7 @@ export function ServiceTeaserBlock() {
         <section className="w-full bg-white py-20 sm:py-28">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
-                <div className="mb-12 md:mb-16">
+                <div className="mb-12 md:mb-16 text-center md:text-left">
                     <FadeIn direction="up" delay={0}>
                         <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary-50 px-4 py-1.5 text-[10px] font-bold tracking-widest text-primary-600 uppercase">
                             <Sparkles className="h-3.5 w-3.5" /> What We Do

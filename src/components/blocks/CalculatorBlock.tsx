@@ -199,7 +199,7 @@ export function CalculatorBlock() {
 
                 <button
                   onClick={handleWhatsAppRedirect}
-                  className="w-full group flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white h-14 rounded-lg font-bold text-sm tracking-wide uppercase transition-all duration-300 shadow-lg shadow-[#25D366]/20 hover:shadow-xl hover:shadow-[#25D366]/40 hover:-translate-y-1 active:scale-[0.98] cursor-pointer"
+                  className="w-full group flex items-center justify-center gap-3 bg-primary-600 hover:bg-primary-500 text-white h-14 rounded-lg font-bold text-sm tracking-wide uppercase transition-all duration-300 shadow-lg shadow-primary-500/20 hover:shadow-xl hover:shadow-primary-500/40 hover:-translate-y-1 active:scale-[0.98] cursor-pointer"
                 >
                   <MessageCircle className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
                   Book via WhatsApp
