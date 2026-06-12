@@ -146,15 +146,16 @@ export function ServiceTeaserBlock() {
                                             <div className={cn("grid transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]", isActive ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0")}>
                                                 <div className="overflow-hidden">
                                                     <Text className="text-sm sm:text-base leading-relaxed text-gray-200 mb-6 mt-1 max-w-sm">{service.description}</Text>
+                                                    <Link to={`/services#${service.id}`} className="w-full">
 
-                                                    <Button
-                                                        size="lg"
-                                                        className="group/btn bg-primary-600 hover:bg-primary-500 text-white rounded-lg gap-2 font-bold uppercase tracking-wider text-xs h-12 px-6 transition-all duration-300 hover:shadow-lg hover:shadow-primary-900/30 hover:-translate-y-0.5 active:scale-95 cursor-pointer"
-                                                    >
-                                                        Details
-                                                        <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
-                                                    </Button>
-
+                                                        <Button
+                                                            size="lg"
+                                                            className="group/btn bg-primary-600 hover:bg-primary-500 text-white rounded-lg gap-2 font-bold uppercase tracking-wider text-xs h-12 px-6 transition-all duration-300 hover:shadow-lg hover:shadow-primary-900/30 hover:-translate-y-0.5 active:scale-95 cursor-pointer"
+                                                        >
+                                                            Details
+                                                            <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
+                                                        </Button>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -165,7 +166,6 @@ export function ServiceTeaserBlock() {
                     </div>
                 </FadeIn>
 
-                {/* Mobile-only view all button */}
                 <div className="mt-8 flex justify-center sm:hidden">
                     <Link to="/services" className="w-full">
                         <Button variant="outline" className="w-full group rounded-lg font-bold tracking-wide border-gray-200 cursor-pointer active:scale-95">
