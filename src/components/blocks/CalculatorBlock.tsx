@@ -4,6 +4,7 @@ import { Heading } from "../ui/Heading";
 import { Text } from "../ui/Text";
 import { FadeIn } from "../utils/FadeIn";
 import { cn } from "../../lib/utils";
+import { Button } from "../ui/Button";
 
 const WHATSAPP_NUMBER = "99361234567";
 
@@ -61,7 +62,7 @@ export function CalculatorBlock() {
   };
 
   return (
-    <section className="w-full bg-gray-50 py-20 sm:py-28">
+    <section id="calculator" className="w-full bg-gray-50 py-20 sm:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
         <div className="mb-12 text-center md:mb-16">
@@ -142,7 +143,7 @@ export function CalculatorBlock() {
                   {ADDONS.map((addon) => {
                     const isSelected = selectedAddons.includes(addon.id);
                     return (
-                      <button
+                      <Button
                         key={addon.id}
                         onClick={() => toggleAddon(addon.id)}
                         className={cn(
@@ -157,7 +158,7 @@ export function CalculatorBlock() {
                         </div>
                         
                         <span className="text-xs sm:text-sm font-semibold leading-tight">{addon.label}</span>
-                      </button>
+                      </Button>
                     );
                   })}
                 </div>
@@ -197,14 +198,14 @@ export function CalculatorBlock() {
                   *This is an approximate estimate based on average conditions. Final price is confirmed before work begins.
                 </Text>
 
-                <button
+                <Button
                   onClick={handleWhatsAppRedirect}
                   className="w-full group flex items-center justify-center gap-3 bg-primary-600 hover:bg-primary-500 text-white h-14 rounded-lg font-bold text-sm tracking-wide uppercase transition-all duration-300 shadow-lg shadow-primary-500/20 hover:shadow-xl hover:shadow-primary-500/40 hover:-translate-y-1 active:scale-[0.98] cursor-pointer"
                 >
                   <MessageCircle className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
                   Book via WhatsApp
                   <ChevronRight className="h-4 w-4 opacity-70 transition-transform duration-300 group-hover:translate-x-1" />
-                </button>
+                </Button>
               </div>
             </FadeIn>
           </div>
