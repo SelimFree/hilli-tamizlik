@@ -1,0 +1,102 @@
+{
+  "HeroBlock": {
+    "badge": "Premium Deep Cleaning Specialist",
+    "titleStart": "Not every cleaning is",
+    "titleAccent": "professional.",
+    "description": "See a visible difference with detailing that goes beyond surface sheen. We target hidden dust layers and deep grime to restore absolute, long-lasting freshness to your property.",
+    "feature1": "Deep Dirt Extraction",
+    "feature2": "Full Zone Disinfection",
+    "feature3": "Stain & Odor Elimination",
+    "ctaWhatsApp": "WhatsApp Estimate",
+    "ctaCall": "Call Directly"
+  },
+
+  "TrustBlock": {
+    "eco": "100% Eco-Friendly",
+    "guarantee": "Perfect Clean Guarantee",
+    "equip": "Pro-Grade Machinery",
+    "safe": "Child & Pet Safe",
+    "vetted": "Vetted Professionals",
+    "price": "Zero Hidden Fees",
+    "stain": "Stain Extraction Experts",
+    "satisfy": "100% Rated Satisfaction"
+  },
+
+  "ServiceTeaserBlock": {
+    "badge": "What We Do",
+    "headingStart": "Specialized deep cleaning",
+    "headingAccent": "tailored to your space.",
+    "viewAll": "View All Services",
+    "details": "Details",
+    "services": {
+      "residential": {
+        "title": "Deep Home Cleaning",
+        "subtitle": "Property Restoration",
+        "description": "Our signature deep clean targets hidden dust vectors, sanitizes baseboards and behind appliances, and rejuvenates your living areas."
+      },
+      "upholstery": {
+        "title": "Sofa & Carpet Care",
+        "subtitle": "Fabric Extraction",
+        "description": "Industrial injection-suction machinery pulls embedded stains, allergens, and odors out of your upholstery, leaving fabrics refreshed."
+      },
+      "construction": {
+        "title": "Post-Construction",
+        "subtitle": "Fine Dust Elimination",
+        "description": "Specialized removal of micro-dust, paint splatters, and silicon residue. We turn raw renovation spaces into turn-key homes."
+      },
+      "commercial": {
+        "title": "Office & Corporate",
+        "subtitle": "Premium Workspaces",
+        "description": "Consistent, high-standard maintenance designed for premium corporate environments, maintaining workspace aesthetics and absolute hygiene."
+      }
+    }
+  },
+
+  "CalculatorBlock": {
+    "badge": "Instant Estimate",
+    "headingStart": "Transparent pricing.",
+    "headingAccent": "No hidden fees.",
+    "step1Title": "1. Property Size",
+    "rangeMin": "20 m²",
+    "rangeMax": "300+ m²",
+    "step2Title": "2. Cleaning Level",
+    "step3Title": "3. Extra Services",
+    "sidebarTitle": "Your Estimate",
+    "summaryBase": "Base Clean",
+    "summaryExtras": "Extras",
+    "estimatedTotal": "Estimated Total",
+    "disclaimer": "*This is an approximate estimate based on average conditions. Final price is confirmed before work begins.",
+    "ctaWhatsApp": "Book via WhatsApp",
+    "none": "None",
+    "msgGreet": "  Hello Hilli Tämizlik! 👋",
+    "msgIntro": "I used your website calculator and would like to request a booking:",
+    "msgService": "Service",
+    "msgSize": "Size",
+    "msgAddons": "Add-ons",
+    "msgTotal": "Estimated Total",
+    "msgOutro": "Is this available?",
+    "services": {
+      "standard": {
+        "label": "Standard Maintenance",
+        "desc": "Light dusting, vacuuming, and surface mopping."
+      },
+      "deep": {
+        "label": "Premium Deep Clean",
+        "desc": "Detailed scrubbing, baseboards, and hidden dust vectors."
+      },
+      "construction": {
+        "label": "Post-Construction",
+        "desc": "Industrial removal of fine dust, paint, and residues."
+      }
+    },
+    "addons": {
+      "fridge": { "label": "Inside Fridge" },
+      "oven": { "label": "Inside Oven" },
+      "windows": { "label": "Interior Windows" },
+      "balcony": { "label": "Balcony Cleaning" },
+      "carpet": { "label": "Deep Carpet Wash" },
+      "mattress": { "label": "Mattress Sanitization" },
+      "cabinets": { "label": "Inside Cabinets" }
+    }
+  }
+}

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Button } from "../ui/Button";
 import { Heading } from "../ui/Heading";
 import { Text } from "../ui/Text";
@@ -13,6 +14,7 @@ const SLIDER_IMAGES = [
 ];
 
 export function HeroBlock() {
+    const { t } = useTranslation("home");
     const [activeIndex, setActiveIndex] = useState(0);
 
     useEffect(() => {
@@ -47,20 +49,21 @@ export function HeroBlock() {
                         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2 backdrop-blur-md">
                             <Sparkles className="h-4 w-4 text-secondary-400" />
                             <span className="text-xs font-bold tracking-widest text-white uppercase">
-                                Premium Deep Cleaning Specialist
+                                {t("HeroBlock.badge")}
                             </span>
                         </div>
                     </FadeIn>
 
                     <FadeIn direction="up" delay={150}>
                         <Heading className="mb-6 text-5xl font-black leading-[1.1] text-white sm:text-6xl md:text-7xl lg:text-6xl lg:font-extrabold tracking-tight">
-                            Not every cleaning is <span className="text-primary-400">professional</span>.
+                            {t("HeroBlock.titleStart")} {" "}
+                            <span className="text-primary-400">{t("HeroBlock.titleAccent")}</span>
                         </Heading>
                     </FadeIn>
 
                     <FadeIn direction="up" delay={300}>
                         <Text className="hidden sm:inline-block mb-8 text-lg leading-relaxed text-gray-200 sm:text-xl md:text-2xl font-medium lg:text-xl lg:font-normal max-w-2xl">
-                            See a visible difference with detailing that goes beyond surface sheen. We target hidden dust layers and deep grime to restore absolute, long-lasting freshness to your property.
+                            {t("HeroBlock.description")}
                         </Text>
                     </FadeIn>
 
@@ -68,15 +71,15 @@ export function HeroBlock() {
                         <div className="mb-10 flex flex-col gap-3 text-base md:text-lg font-bold text-gray-200 sm:flex-row sm:items-center sm:gap-x-6 lg:text-base lg:font-semibold">
                             <div className="flex items-center gap-2">
                                 <span className="h-2 w-2 rounded-full bg-primary-400 shrink-0 lg:h-1.5 lg:w-1.5" />
-                                <span>Deep Dirt Extraction</span>
+                                <span>{t("HeroBlock.feature1")}</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <span className="h-2 w-2 rounded-full bg-primary-400 shrink-0 lg:h-1.5 lg:w-1.5" />
-                                <span>Full Zone Disinfection</span>
+                                <span>{t("HeroBlock.feature2")}</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <span className="h-2 w-2 rounded-full bg-primary-400 shrink-0 lg:h-1.5 lg:w-1.5" />
-                                <span>Stain & Odor Elimination</span>
+                                <span>{t("HeroBlock.feature3")}</span>
                             </div>
                         </div>
                     </FadeIn>
@@ -88,7 +91,7 @@ export function HeroBlock() {
                                 className="group flex items-center justify-center gap-3 bg-primary-600 text-white hover:bg-primary-500 h-16 px-10 text-base font-bold tracking-wide uppercase rounded-lg shadow-lg shadow-primary-950/30 hover:shadow-xl hover:shadow-primary-600/40 transition-all duration-300 hover:-translate-y-1 cursor-pointer active:scale-95"
                             >
                                 <MessageCircle className="h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
-                                WhatsApp Estimate
+                                {t("HeroBlock.ctaWhatsApp")}
                             </Button>
                             <Button
                                 size="lg"
@@ -96,7 +99,7 @@ export function HeroBlock() {
                                 className="group flex items-center justify-center gap-3 border-2 border-white/40 bg-white/5 text-white hover:bg-white/10 h-16 px-10 text-base font-bold tracking-wide uppercase rounded-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer active:scale-95 hover:border-white/60"
                             >
                                 <PhoneCall className="h-5 w-5 transition-transform duration-300 group-hover:scale-110 group-hover:-rotate-12" />
-                                Call Directly
+                                {t("HeroBlock.ctaCall")}
                             </Button>
                         </div>
                     </FadeIn>
