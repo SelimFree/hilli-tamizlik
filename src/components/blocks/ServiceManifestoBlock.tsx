@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Check, Plus, Sparkles } from "lucide-react";
 import { Heading } from "../ui/Heading";
 import { Text } from "../ui/Text";
@@ -6,6 +5,7 @@ import { Button } from "../ui/Button";
 import { Image } from "../ui/Image";
 import { FadeIn } from "../utils/FadeIn";
 import { cn } from "../../lib/utils";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const SERVICES_DATA = [
     {
@@ -163,11 +163,21 @@ const SERVICES_DATA = [
 ];
 
 export function ServiceManifestoBlock() {
-    const [activeTab, setActiveTab] = useState(SERVICES_DATA[0].id);
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    const hashId = location.hash.replace("#", "");
+    const isValidTab = SERVICES_DATA.some((s) => s.id === hashId);
+    const activeTab = isValidTab ? hashId : SERVICES_DATA[0].id;
+
     const activeData = SERVICES_DATA.find((s) => s.id === activeTab) || SERVICES_DATA[0];
 
+    const handleTabChange = (id: string) => {
+        navigate(`#${id}`, { replace: true });
+    };
+
     return (
-        <section className="w-full bg-white py-12 lg:py-16 overflow-hidden">
+        <section id="manifesto" className="w-full bg-white py-12 lg:py-16 overflow-hidden">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 
                 <div className="mb-10 md:mb-16 flex flex-col items-center">
@@ -185,7 +195,7 @@ export function ServiceManifestoBlock() {
                                     <Button
                                         key={service.id}
                                         variant="ghost"
-                                        onClick={() => setActiveTab(service.id)}
+                                        onClick={() => handleTabChange(service.id)}
                                         className={cn(
                                             "text-xs sm:text-sm font-bold tracking-wide transition-all duration-300 rounded-md select-none",
                                             isActive
