@@ -1,0 +1,72 @@
+{
+  "MissionBlock": {
+    "badge": "Our Philosophy",
+    "titleStart": "Where professional precision meets",
+    "titleAccent": "uncompromising care.",
+    "descriptionPart1": "Hilli Tämizlik was founded on a singular, clear realization: true cleanliness cannot be achieved through surface-level rushing. In our language, ",
+    "qualityHighlight": "\"Hilli\" means Quality",
+    "descriptionPart2": ", and we treat that definition as an architectural blueprint rather than a generic slogan.",
+    "description2": "We observed an industry plagued by unpredictable scheduling, inconsistent results, and harsh, toxic chemicals. We chose a different path. By combining industrial-grade extraction engineering with rigorously vetted hospitality professionals, we transform residential and commercial properties into pristine, deeply sanitized environments.",
+    "ctaButton": "Explore Our Standards",
+    "imageAlt": "Premium sanitized residential space environment",
+    "metricLabel": "Operational Metric",
+    "metricValue": "100% Verified Quality Standards"
+  },
+
+  "SecurityVettingBlock": {
+    "badge": "Security Blueprint",
+    "headingStart": "Our strictest standards",
+    "headingAccent": "are the ones you cannot see.",
+    "steps": {
+      "screening": {
+        "title": "Rigorous Background Screening",
+        "subtitle": "Identity & Trust Verification",
+        "description": "Every single professional undergoes multi-level identity verification, criminal background history checks, and exhaustive personal reference vetting before ever putting on our uniform."
+      },
+      "academy": {
+        "title": "The Hilli Training Academy",
+        "subtitle": "Hands-on Specialization",
+        "description": "We do not hire unverified freelancers. All team members undergo 40 hours of practical instruction on premium surface management, advanced fabric extraction mechanics, and chemical safety."
+      },
+      "insurance": {
+        "title": "Comprehensive Liability Coverage",
+        "subtitle": "Corporate Accountability",
+        "description": "Total peace of mind. Our operations are backed by a comprehensive liability policy, ensuring your fine art, architectural finishes, and property are completely protected."
+      }
+    }
+  },
+
+  "EquipmentBlock": {
+    "badge": "Our Arsenal",
+    "headingStart": "Industrial power.",
+    "headingAccent": "Botanical safety.",
+    "description": "We invest heavily in the latest European extraction machinery, thermal sterilization, and environmentally responsible chemistry to ensure your space is not just visually spotless, but biologically sanitized.",
+    "pillars": {
+      "machinery": {
+        "title": "Pro-Grade Extraction",
+        "subtitle": "Industrial Machinery",
+        "description": "Injection-suction technology that pulls embedded dirt and allergens from the deepest fabric layers."
+      },
+      "chemistry": {
+        "title": "Green Chemistry",
+        "subtitle": "100% Non-Toxic",
+        "description": "Biodegradable, hospital-grade agents safe for children, pets, and delicate architectural finishes."
+      },
+      "air-quality": {
+        "title": "HEPA Purification",
+        "subtitle": "Active Air Scrubbing",
+        "description": "Certified HEPA filtration systems that actively capture 99.97% of micro-particles while we clean."
+      },
+      "steam": {
+        "title": "Thermal Sterilization",
+        "subtitle": "200°C Dry Steam",
+        "description": "High-pressure dry steam application that instantly eradicates bacteria and lifts hardened grease without chemicals."
+      },
+      "microfiber": {
+        "title": "Zonal Microfiber",
+        "subtitle": "Zero Cross-Contamination",
+        "description": "Strict color-coded fiber systems ensuring bathroom textiles never touch kitchen or living space surfaces."
+      }
+    }
+  }
+}

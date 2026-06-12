@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { ShieldCheck, GraduationCap, FileCheck, Sparkles } from "lucide-react";
 import { Heading } from "../ui/Heading";
 import { Text } from "../ui/Text";
@@ -8,30 +9,23 @@ const VETTING_STEPS = [
     {
         id: "screening",
         stepNumber: "01",
-        subtitle: "Identity & Trust Verification",
-        title: "Rigorous Background Screening",
-        description: "Every single professional undergoes multi-level identity verification, criminal background history checks, and exhaustive personal reference vetting before ever putting on our uniform.",
         icon: ShieldCheck,
     },
     {
         id: "academy",
         stepNumber: "02",
-        subtitle: "Hands-on Specialization",
-        title: "The Hilli Training Academy",
-        description: "We do not hire unverified freelancers. All team members undergo 40 hours of practical instruction on premium surface management, advanced fabric extraction mechanics, and chemical safety.",
         icon: GraduationCap,
     },
     {
         id: "insurance",
         stepNumber: "03",
-        subtitle: "Corporate Accountability",
-        title: "Comprehensive Liability Coverage",
-        description: "Total peace of mind. Our operations are backed by a comprehensive liability policy, ensuring your fine art, architectural finishes, and property are completely protected.",
         icon: FileCheck,
     },
 ];
 
 export function SecurityVettingBlock() {
+    const { t } = useTranslation("about");
+
     return (
         <section className="w-full bg-white py-20 sm:py-28 overflow-hidden">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -39,14 +33,14 @@ export function SecurityVettingBlock() {
                 <div className="mb-20 md:mb-28 text-center mx-auto max-w-3xl">
                     <FadeIn direction="up" delay={0}>
                         <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary-50 px-4 py-1.5 text-[10px] font-bold tracking-widest text-primary-600 uppercase">
-                            <Sparkles className="h-3.5 w-3.5" /> Security Blueprint
+                            <Sparkles className="h-3.5 w-3.5" /> {t("SecurityVettingBlock.badge")}
                         </span>
                     </FadeIn>
 
                     <FadeIn direction="up" delay={150}>
                         <Heading className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
-                            Our strictest standards <br className="hidden sm:block" />
-                            <span className="text-primary-600">are the ones you cannot see.</span>
+                            {t("SecurityVettingBlock.headingStart")} <br className="hidden sm:block" />
+                            <span className="text-primary-600">{t("SecurityVettingBlock.headingAccent")}</span>
                         </Heading>
                     </FadeIn>
                 </div>
@@ -54,7 +48,6 @@ export function SecurityVettingBlock() {
                 <div className="relative mx-auto max-w-5xl">
 
                     <div className="absolute left-4 top-2 bottom-2 w-0.5 bg-gray-100 md:left-1/2 md:-translate-x-1/2" />
-
                     <div className="absolute left-4.25 top-2 bottom-2 w-0.5 bg-gray-100 md:left-1/2 md:-translate-x-1/2" />
 
                     <div className="space-y-16 md:space-y-24">
@@ -67,7 +60,6 @@ export function SecurityVettingBlock() {
                                     key={step.id}
                                     className="group relative flex flex-col md:flex-row w-full items-start justify-between pl-10 md:pl-0"
                                 >
-
                                     <div className="absolute left-4.25 md:left-1/2 top-1.5 md:top-4 h-3 w-3 -translate-x-1/2 rounded-full bg-gray-200 ring-4 ring-white transition-all duration-500 group-hover:bg-primary-600 group-hover:scale-125 z-10" />
 
                                     <div className={cn(
@@ -82,23 +74,23 @@ export function SecurityVettingBlock() {
                                                             <Icon className="h-4 w-4" strokeWidth={2} />
                                                         </div>
                                                         <span className="text-xs font-bold text-primary-600 tracking-wider md:hidden">
-                                                            {step.stepNumber} // {step.subtitle}
+                                                            {step.stepNumber} // {t(`SecurityVettingBlock.steps.${step.id}.subtitle`)}
                                                         </span>
                                                         <span className="hidden md:block text-sm font-black text-gray-300 tracking-wider">
                                                             {step.stepNumber}
                                                         </span>
                                                     </div>
                                                     <Heading className="text-xl font-extrabold text-gray-900 group-hover:text-primary-600 transition-colors duration-300">
-                                                        {step.title}
+                                                        {t(`SecurityVettingBlock.steps.${step.id}.title`)}
                                                     </Heading>
                                                 </div>
                                             ) : (
                                                 <div className="max-w-md">
                                                     <span className="hidden md:block text-xs font-bold text-primary-500 tracking-widest uppercase mb-2">
-                                                        {step.subtitle}
+                                                        {t(`SecurityVettingBlock.steps.${step.id}.subtitle`)}
                                                     </span>
                                                     <Text className="text-sm sm:text-base leading-relaxed text-gray-500">
-                                                        {step.description}
+                                                        {t(`SecurityVettingBlock.steps.${step.id}.description`)}
                                                     </Text>
                                                 </div>
                                             )}
@@ -117,23 +109,23 @@ export function SecurityVettingBlock() {
                                                             <Icon className="h-4 w-4" strokeWidth={2} />
                                                         </div>
                                                         <span className="text-xs font-bold text-primary-600 tracking-wider md:hidden">
-                                                            {step.stepNumber} // {step.subtitle}
+                                                            {step.stepNumber} // {t(`SecurityVettingBlock.steps.${step.id}.subtitle`)}
                                                         </span>
                                                         <span className="hidden md:block text-sm font-black text-gray-300 tracking-wider">
                                                             {step.stepNumber}
                                                         </span>
                                                     </div>
                                                     <Heading className="text-xl font-extrabold text-gray-900 group-hover:text-primary-600 transition-colors duration-300">
-                                                        {step.title}
+                                                        {t(`SecurityVettingBlock.steps.${step.id}.title`)}
                                                     </Heading>
                                                 </div>
                                             ) : (
                                                 <div className="max-w-md">
                                                     <span className="hidden md:block text-xs font-bold text-primary-500 tracking-widest uppercase mb-2">
-                                                        {step.subtitle}
+                                                        {t(`SecurityVettingBlock.steps.${step.id}.subtitle`)}
                                                     </span>
                                                     <Text className="text-sm sm:text-base leading-relaxed text-gray-500">
-                                                        {step.description}
+                                                        {t(`SecurityVettingBlock.steps.${step.id}.description`)}
                                                     </Text>
                                                 </div>
                                             )}

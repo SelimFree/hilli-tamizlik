@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { ArrowUpRight, Sparkles, Home, Construction, Sofa, Building2, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Heading } from "../ui/Heading";
@@ -10,33 +11,21 @@ import { cn } from "../../lib/utils";
 const SERVICES = [
     {
         id: "residential",
-        title: "Deep Home Cleaning",
-        subtitle: "Property Restoration",
-        description: "Our signature deep clean targets hidden dust vectors, sanitizes baseboards and behind appliances, and rejuvenates your living areas.",
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200",
         icon: Home,
     },
     {
         id: "upholstery",
-        title: "Sofa & Carpet Care",
-        subtitle: "Fabric Extraction",
-        description: "Industrial injection-suction machinery pulls embedded stains, allergens, and odors out of your upholstery, leaving fabrics refreshed.",
         image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200",
         icon: Sofa,
     },
     {
         id: "construction",
-        title: "Post-Construction",
-        subtitle: "Fine Dust Elimination",
-        description: "Specialized removal of micro-dust, paint splatters, and silicon residue. We turn raw renovation spaces into turn-key homes.",
         image: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1200",
         icon: Construction,
     },
     {
         id: "commercial",
-        title: "Office & Corporate",
-        subtitle: "Premium Workspaces",
-        description: "Consistent, high-standard maintenance designed for premium corporate environments, maintaining workspace aesthetics and absolute hygiene.",
         image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200",
         icon: Building2,
     },
@@ -51,6 +40,7 @@ const gridLayoutClasses: Record<string, string> = {
 };
 
 export function ServiceTeaserBlock() {
+    const { t } = useTranslation("home");
     const [activeId, setActiveId] = useState<string | null>(null);
     const hoverTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -89,20 +79,20 @@ export function ServiceTeaserBlock() {
                 <div className="mb-12 md:mb-16 text-center md:text-left">
                     <FadeIn direction="up" delay={0}>
                         <span className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary-50 px-4 py-1.5 text-[10px] font-bold tracking-widest text-primary-600 uppercase">
-                            <Sparkles className="h-3.5 w-3.5" /> What We Do
+                            <Sparkles className="h-3.5 w-3.5" /> {t("ServiceTeaserBlock.badge")}
                         </span>
                     </FadeIn>
 
                     <FadeIn direction="up" delay={150}>
                         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-6">
                             <Heading className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
-                                Specialized deep cleaning <br className="hidden sm:block" />
-                                <span className="text-primary-600">tailored to your space.</span>
+                                {t("ServiceTeaserBlock.headingStart")} <br className="hidden sm:block" />
+                                <span className="text-primary-600">{t("ServiceTeaserBlock.headingAccent")}</span>
                             </Heading>
 
                             <Link to="/services">
                                 <Button variant="ghost" className="group hidden sm:flex text-primary-600 hover:bg-primary-50 hover:text-primary-700 px-4 py-2 font-bold tracking-wide transition-all rounded-lg active:scale-95 cursor-pointer">
-                                    View All Services
+                                    {t("ServiceTeaserBlock.viewAll")}
                                     <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1.5" />
                                 </Button>
                             </Link>
@@ -140,19 +130,24 @@ export function ServiceTeaserBlock() {
                                         </div>
 
                                         <div className={cn("flex flex-col justify-end transition-all duration-700 w-full overflow-hidden", isActive ? "translate-y-0" : "translate-y-2 md:translate-y-0")}>
-                                            <span className={cn("text-[10px] font-bold tracking-[0.2em] text-primary-400 uppercase mb-2 transition-opacity duration-300", isAnotherActive ? "opacity-0 hidden md:block md:opacity-100" : "opacity-100")}>{service.subtitle}</span>
-                                            <Heading className={cn("font-extrabold text-white transition-all duration-500 truncate", isActive ? "text-2xl sm:text-3xl lg:text-4xl mb-3" : "text-lg sm:text-lg md:text-xl")}>{service.title}</Heading>
+                                            <span className={cn("text-[10px] font-bold tracking-[0.2em] text-primary-400 uppercase mb-2 transition-opacity duration-300", isAnotherActive ? "opacity-0 hidden md:block md:opacity-100" : "opacity-100")}>
+                                                {t(`ServiceTeaserBlock.services.${service.id}.subtitle`)}
+                                            </span>
+                                            <Heading className={cn("font-extrabold text-white transition-all duration-500 truncate", isActive ? "text-2xl sm:text-3xl lg:text-4xl mb-3" : "text-lg sm:text-lg md:text-xl")}>
+                                                {t(`ServiceTeaserBlock.services.${service.id}.title`)}
+                                            </Heading>
 
                                             <div className={cn("grid transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)]", isActive ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0")}>
                                                 <div className="overflow-hidden">
-                                                    <Text className="text-sm sm:text-base leading-relaxed text-gray-200 mb-6 mt-1 max-w-sm">{service.description}</Text>
+                                                    <Text className="text-sm sm:text-base leading-relaxed text-gray-200 mb-6 mt-1 max-w-sm">
+                                                        {t(`ServiceTeaserBlock.services.${service.id}.description`)}
+                                                    </Text>
                                                     <Link to={`/services#${service.id}`} className="w-full">
-
                                                         <Button
                                                             size="lg"
                                                             className="group/btn bg-primary-600 hover:bg-primary-500 text-white rounded-lg gap-2 font-bold uppercase tracking-wider text-xs h-12 px-6 transition-all duration-300 hover:shadow-lg hover:shadow-primary-900/30 hover:-translate-y-0.5 active:scale-95 cursor-pointer"
                                                         >
-                                                            Details
+                                                            {t("ServiceTeaserBlock.details")}
                                                             <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1" />
                                                         </Button>
                                                     </Link>
@@ -169,7 +164,7 @@ export function ServiceTeaserBlock() {
                 <div className="mt-8 flex justify-center sm:hidden">
                     <Link to="/services" className="w-full">
                         <Button variant="outline" className="w-full group rounded-lg font-bold tracking-wide border-gray-200 cursor-pointer active:scale-95">
-                            View All Services
+                            {t("ServiceTeaserBlock.viewAll")}
                             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                         </Button>
                     </Link>

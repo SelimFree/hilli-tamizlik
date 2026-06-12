@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
     Leaf,
     ShieldCheck,
@@ -10,17 +11,18 @@ import {
 } from "lucide-react";
 
 const TRUST_STAMPS = [
-    { id: "eco", text: "100% Eco-Friendly", icon: Leaf },
-    { id: "guarantee", text: "Perfect Clean Guarantee", icon: ShieldCheck },
-    { id: "equip", text: "Pro-Grade Machinery", icon: Flame },
-    { id: "safe", text: "Child & Pet Safe", icon: Heart },
-    { id: "vetted", text: "Vetted Professionals", icon: BadgeCheck },
-    { id: "price", text: "Zero Hidden Fees", icon: DollarSign },
-    { id: "stain", text: "Stain Extraction Experts", icon: Sparkles },
-    { id: "satisfy", text: "100% Rated Satisfaction", icon: Smile },
+    { id: "eco", icon: Leaf },
+    { id: "guarantee", icon: ShieldCheck },
+    { id: "equip", icon: Flame },
+    { id: "safe", icon: Heart },
+    { id: "vetted", icon: BadgeCheck },
+    { id: "price", icon: DollarSign },
+    { id: "stain", icon: Sparkles },
+    { id: "satisfy", icon: Smile },
 ];
 
 export function TrustBlock() {
+    const { t } = useTranslation("home");
     const doubleStamps = [...TRUST_STAMPS, ...TRUST_STAMPS];
 
     return (
@@ -41,7 +43,7 @@ export function TrustBlock() {
                                 </div>
 
                                 <span className="text-[10px] md:text-xs font-black tracking-[0.2em] text-gray-800 uppercase transition-colors duration-300 group-hover:text-primary-900">
-                                    {stamp.text}
+                                    {t(`TrustBlock.${stamp.id}`)}
                                 </span>
                             </div>
                         );
