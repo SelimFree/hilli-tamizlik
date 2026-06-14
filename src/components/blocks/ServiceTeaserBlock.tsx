@@ -115,7 +115,7 @@ export function ServiceTeaserBlock() {
                                     onClick={() => handleClick(service.id)}
                                     className={cn(
                                         "group relative w-full overflow-hidden bg-gray-900 transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] cursor-pointer select-none rounded-lg",
-                                        isActive ? "h-85 sm:h-95" : isAnotherActive ? "h-24 sm:h-28" : "h-40 sm:h-48",
+                                        isActive ? "h-85 sm:h-95" : isAnotherActive ? "h-30" : "h-40 sm:h-48",
                                         "md:h-full"
                                     )}
                                 >

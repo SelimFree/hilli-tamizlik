@@ -1,0 +1,72 @@
+{
+  "MissionBlock": {
+    "badge": "Biziň filosofiýamyz",
+    "titleStart": "Hünärmen takyklygynyň we",
+    "titleAccent": "gyşarnyksyz aladanyň utgaşýan ýeri.",
+    "descriptionPart1": "Hilli Tämizlik kompaniýasy bir aýdyň hakykata esaslanyp döredildi: hakyky tämizlige üstleýin gysga wagtda ýetip bolmaýar. Biziň dilimizde ",
+    "qualityHighlight": "\"Hilli\" diýmek Hil diýmekdir",
+    "descriptionPart2": ", we biz bu kesgitlemä ýönekeý bir şygar däl-de, eýsem binägärlik çyzgysy hökmünde garaýarys.",
+    "description2": "Biz tämizlik pudagynda durnuksyz tertipleri, üýtgeýän netijeleri we agyr, zäherli himiki serişdeleri gördük. Biz başga ýoly saýladyk. Senagat derejeli arassalaýyş inženerçiligini we düýpli barlagdan geçen hünärmenleri utgaşdyryp, biz ýaşaýyş we täjirçilik binalaryny düýpli dezinfeksiýa edilen gurşawa öwürýäris.",
+    "ctaButton": "Standartlarymyz bilen tanyşyň",
+    "imageAlt": "Ýokary derejede dezinfeksiýa edilen ýaşaýyş meýdany",
+    "metricLabel": "Amaly görkeziji",
+    "metricValue": "100% tassyklanan hil standartlary"
+  },
+
+  "SecurityVettingBlock": {
+    "badge": "Howpsuzlyk meýilnamasy",
+    "headingStart": "Biziň iň berk standartlarymyz —",
+    "headingAccent": "siziň görüp bilmeýän standartlaryňyzdyr.",
+    "steps": {
+      "screening": {
+        "title": "Düýpli şahsy barlag",
+        "subtitle": "Şahsyýeti we ynamy tassyklamak",
+        "description": "Her bir hünärmen biziň iş lybasymyzy geymezden ozal, köp derejeli şahsyýet barlagyndan, jenaýat taryhy barlagyndan we şahsy kepillikleriň düýpli seljerişinden geçýär."
+      },
+      "academy": {
+        "title": "Hilli okuw akademiýasy",
+        "subtitle": "Amaly hünärleşme",
+        "description": "Biz barlagdan geçmedik meýletin işgärleri almaýarys. Toparyň ähli agzalary ýokary hilli üstleri dolandyrmak, matalary çuňňur arassalamak we himiki howpsuzlyk boýunça 40 sagatlyk amaly sapaklary geçýärler."
+      },
+      "insurance": {
+        "title": "Doly jogapkärçilik ätiýaçlandyrmasy",
+        "subtitle": "Korporatiw jogapkärçilik",
+        "description": "Doly rahatlyk. Biziň işimiz giňişleýin ätiýaçlandyryş şertnamasy bilen goldanylýar, bu bolsa çeper eserleriňiziň, binägärlik bezegleriňiziň we emlägiňiziň doly goralmagyny üpjün edýär."
+      }
+    }
+  },
+
+  "EquipmentBlock": {
+    "badge": "Biziň gurallarymyz",
+    "headingStart": "Senagat kuwwaty.",
+    "headingAccent": "Ösümlik esasly howpsuzlyk.",
+    "description": "Biz siziň giňişligiňiziň diňe bir gözegçilikde tämiz bolman, eýsem biologik taýdan arassa bolmagyny üpjün etmek üçin iň täze Ýewropa enjamlaryna, ýylylyk sterilizasiýasyna we ekologik himiýasyna uly maýa goýýarys.",
+    "pillars": {
+      "machinery": {
+        "title": "Hünärmen derejeli arassalaýyş",
+        "subtitle": "Senagat enjamlary",
+        "description": "Matalaryň iň çuňňur gatlaklaryndan siňen hapa we allergenleri sorup alýan sanjym-sormak tehnologiýasy."
+      },
+      "chemistry": {
+        "title": "Ekologik himiýa",
+        "subtitle": "100% zäherli däl",
+        "description": "Çagalar, öý haýwanlary we näzik binägärlik bezegleri üçin howpsuz, hassahana derejesindäki dargap bilýän serişdeler."
+      },
+      "air-quality": {
+        "title": "HEPA arassalamak",
+        "subtitle": "Işjeň howa süzülişi",
+        "description": "Arassalaýyş wagtynda mikro-bölejikleriň 99.97%-ini işjeň tutup alýan şahadatnamaly HEPA süzgüç ulgamlary."
+      },
+      "steam": {
+        "title": "Ýylylyk sterilizasiýasy",
+        "subtitle": "200°C Gury bug",
+        "description": "Bakteriýalary dessine ýok edýän we gatany hapa himiki serişdesiz aýyrýan ýokary basyşly gury bug programmasy."
+      },
+      "microfiber": {
+        "title": "Zonaly mikro-süýüm",
+        "subtitle": "Nol derejeli gatyşyk hapalanma",
+        "description": "Sanuzel matalarynyň hiç wagt aşhana ýa-da ýaşaýyş meýdançalaryna degmezligini üpjün edýän berk reňkli kodlanan ulgamlar."
+      }
+    }
+  }
+}
