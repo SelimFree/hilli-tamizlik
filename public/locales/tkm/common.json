@@ -1,0 +1,44 @@
+{
+  "navbar": {
+    "home": "Baş sahypa",
+    "about": "Biz barada",
+    "services": "Hyzmatlar",
+    "privacy": "Gizlinlik syýasaty",
+    "terms": "Hyzmat şertleri",
+    "cookie": "Kuki syýasaty"
+  },
+
+  "footer": {
+    "quickLinks": "Gysga salgylanmalar",
+    "legal": "Hukuk maglumatlary",
+    "privacy": "Gizlinlik syýasaty",
+    "terms": "Hyzmat şertleri",
+    "cookie": "Kuki syýasaty",
+    "slogan": "Emlägiňize durnuksyz ideg edilmeginiň öňüni alyp, gizlin tölegsiz, aýdyň bahalar we kämil ýerine ýetirmek arkaly kynçylyklary aradan aýyrýarys.",
+    "rights": "© {{year}} {{company}}. Ähli hukuklar goralan."
+  },
+
+  "cookieBanner": {
+    "title": "Kuki syýasaty",
+    "body": "Biz trafigi seljermek we saýt tejribesini gowulandyrmak üçün kuki faýllaryny ulanýarys. \"Kabul et\" düwmesine basmak bilen, kukileri ulanmagymyza razylaşýarsyňyz.",
+    "accept": "Kabul et",
+    "more": "Giňişleýin öwren"
+  },
+
+  "notFoundPage": {
+    "title": "404",
+    "subtitle": "Sahypa tapylmady",
+    "body": "Gynansak-da, gözleýän sahypaňyz tapylmady.\nOny başga ýere göçürilen ýa-da öçürilen bolmagy mümkin.",
+    "returnBtn": "Baş sahypa dolan"
+  },
+
+  "errorPage": {
+    "title": "Näsazlyk ýüze çykdy",
+    "subtitle": "Biziň tarapymyzda garaşylmadyk näsazlyk ýüze çykdy. Sahypany täzelemegiňizi haýyş edýäris, eger problema dowam etse, goldaw gullugyna ýüz tutup bilersiňiz.",
+    "refreshBtn": "Sahypany täzele"
+  },
+
+  "loading": {
+    "message": "Ýüklenýär"
+  }
+}

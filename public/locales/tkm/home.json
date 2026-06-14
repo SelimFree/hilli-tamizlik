@@ -1,0 +1,102 @@
+{
+  "HeroBlock": {
+    "badge": "Ýokary derejeli çuňňur arassalaýyş hünärmeni",
+    "titleStart": "Her tämizlik",
+    "titleAccent": "professional däldir.",
+    "description": "Üstleýin ýalpyldydan has çuňe gidýän jikme-jiklik bilen hakyky tapawudy görüň. Biz emlägiňize dowamly arassalygy bermek üçün gizlin tozan gatlaklaryny we çuňňur hapalary maksat edinýäris.",
+    "feature1": "Çuňňur hapany sorup almak",
+    "feature2": "Doly zolaklaýyn dezinfeksiýa",
+    "feature3": "Tegmileri we yslary ýok etmek",
+    "ctaWhatsApp": "WhatsApp hasaplamasy",
+    "ctaCall": "Göni jaň etmek"
+  },
+
+  "TrustBlock": {
+    "eco": "100% Ekologiýa taýdan arassa",
+    "guarantee": "Kämil tämizlik kepilligi",
+    "equip": "Hünärmen derejeli enjamlar",
+    "safe": "Çagalar we haýwanlar üçin howpsuz",
+    "vetted": "Barlagdan geçen hünärmenler",
+    "price": "Gizlin tölegsiz",
+    "stain": "Tegmil aýyrmak boýunça ussatlar",
+    "satisfy": "100% Kanagatlanma derejesi"
+  },
+
+  "ServiceTeaserBlock": {
+    "badge": "Biziň edýän işlerimiz",
+    "headingStart": "Ýöriteleşdirilen çuňňur arassalaýyş,",
+    "headingAccent": "giňişligiňize görä düzülen.",
+    "viewAll": "Ähli hyzmatlar",
+    "details": "Jikme-jiklikler",
+    "services": {
+      "residential": {
+        "title": "Öýleri çuňňur arassalamak",
+        "subtitle": "Emlägi dikeltmek",
+        "description": "Biziň çuňňur arassalaýyş hyzmatymyz gizlin tozan ojaklaryny ýok edýär, plintuslary we enjamlaryň yzlaryny dezinfeksiýa edýär hem-de ýaşaýyş meýdançalaryňyzy täzeleýär."
+      },
+      "upholstery": {
+        "title": "Diwan we haly idegi",
+        "subtitle": "Matalary arassalamak",
+        "description": "Senagat sanjym-sormak enjamlary siňen tegmilleri, allergenleri we yslary mebelleriňizden sorup alýar we matalary täze görnüşe getirýär."
+      },
+      "construction": {
+        "title": "Gurluşykdan soňky tämizlik",
+        "subtitle": "Inçe tozanlary aýyrmak",
+        "description": "Mikro-tozanlaryň, boýag galyndylarynyň we silikon galyndylarynyň ýöriteleşdirilen arassalygy. Biz abatlaýyş düşen meýdançalary göni ýaşalyp bilinjek öýlere öwürýäris."
+      },
+      "commercial": {
+        "title": "Ofis we korporatiw binalar",
+        "subtitle": "Ýokary derejeli iş ýerleri",
+        "description": "Ýokary derejeli korporatiw gurşawlar üçin niýetlenilen yzygiderli we ýokary standartly ideg, iş ýeriniň estetikasyny we doly arassalygyny saklaýar."
+      }
+    }
+  },
+
+  "CalculatorBlock": {
+    "badge": "Dessine hasaplama",
+    "headingStart": "Aýdyň bahalar.",
+    "headingAccent": "Gizlin tölegsiz.",
+    "step1Title": "1. Emlägiň meýdany",
+    "rangeMin": "20 m²",
+    "rangeMax": "300+ m²",
+    "step2Title": "2. Tämizligiň derejesi",
+    "step3Title": "3. Goşmaça hyzmatlar",
+    "sidebarTitle": "Siziň hasaplamanyz",
+    "summaryBase": "Esasy tämizlik",
+    "summaryExtras": "Goşmaçalar",
+    "estimatedTotal": "Çak edilýän jemi",
+    "disclaimer": "*Bu ortaça şertlere esaslanýan çaklama bahadyr. Gutarnykly baha iş başlamazdan ozal tassyklanýar.",
+    "ctaWhatsApp": "WhatsApp arkaly sargyt etmek",
+    "none": "Ýok",
+    "msgGreet": "  Salam Hilli Tämizlik! 👋",
+    "msgIntro": "Men saýtyňyzdaky kalkulýatory ulandym we sargyt etmek isleýärin:",
+    "msgService": "Hyzmat",
+    "msgSize": "Meýdany",
+    "msgAddons": "Goşmaçalar",
+    "msgTotal": "Çak edilýän jemi",
+    "msgOutro": "Şu wagt mümkinmi?",
+    "services": {
+      "standard": {
+        "label": "Adaty ideg",
+        "desc": "Ýeňil tozan süpürmek, tozan sorujy we üstleri ýuvmak."
+      },
+      "deep": {
+        "label": "Ýokary derejeli çuňňur tämizlik",
+        "desc": "Jikme-jik arassalamak, plintuslar we gizlin tozan gatlaklary."
+      },
+      "construction": {
+        "label": "Gurluşykdan soňky tämizlik",
+        "desc": "Inçe tozanlaryň, boýaglaryň we galyndylaryň senagat taýdan aýrylmagy."
+      }
+    },
+    "addons": {
+      "fridge": { "label": "Holodilnik içi" },
+      "oven": { "label": "Duhowka içi" },
+      "windows": { "label": "Içki äpişgeler" },
+      "balcony": { "label": "Balkon tämizligi" },
+      "carpet": { "label": "Halylary çuňňur ýuvmak" },
+      "mattress": { "label": "Matras dezinfeksiýasy" },
+      "cabinets": { "label": "Şkaflaryň içi" }
+    }
+  }
+}

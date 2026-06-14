@@ -1,0 +1,104 @@
+{
+  "custom": {
+    "lastUpdatedLabel": "Soňky gezek täzelenen güni: "
+  },
+
+  "privacyPolicy": {
+    "title": "Gizlinlik syýasaty",
+    "lastUpdated": "10-njy aprel, 2026",
+
+    "section1": {
+      "title": "1. Giriş",
+      "text": "{{company}} hökmünde biz siziň gizlinligiňize hormat goýýarys we şahsy maglumatlaryňyzy goramaga çalyşýarys. Bu gizlinlik syýasaty websaýtymyza gireniňizde şahsy maglumatlaryňyza nähili seredýändigimiz barada size maglumat berer."
+    },
+
+    "section2": {
+      "title": "2. Toplaýan maglumatlarymyz",
+      "text": "Biz siziň barada aşakdaky ýaly toparlara bölünen dürli görnüşli şahsy maglumatlary toplap, ulanyp, saklap we geçirip bileris:",
+      "dataList": [
+        {
+          "label": "Şahsyýet maglumatlary:",
+          "desc": "Adyňyz, familiýaňyz we unwanyňyz/dereňiz degişlidir."
+        },
+        {
+          "label": "Aragatnaşyk maglumatlary:",
+          "desc": "E-poçta salgysy we telefon belgileri degişlidir."
+        },
+        {
+          "label": "Tehniki maglumatlar:",
+          "desc": "IP salgysy, brauzer görnüşi we wagt zolagy sazlamalary degişlidir."
+        },
+        {
+          "label": "Ulanyş maglumatlary:",
+          "desc": "Websaýtymyzy nähili ulanýandygyňyz baradaky maglumatlary öz içine alýar."
+        }
+      ]
+    },
+
+    "section3": {
+      "title": "3. Maglumat howpsuzlygy",
+      "text": "Şahsy maglumatlaryňyzyň tötänleýin ýitirilmeginiň, ulanylmagynyň ýa-da rugsatsyz girilmeginiň öňüni almak üçin degişli howpsuzlyk çärelerini durmuşa geçirdik."
+    }
+  },
+
+  "termsOfService": {
+    "title": "Hyzmat şertleri",
+    "lastUpdated": "10-njy aprel, 2026",
+
+    "section1": {
+      "title": "1. Şertleri kabul etmek",
+      "text": "{{company}} websaýtyna girmek ýa-da ulanmak bilen, siz şu Hyzmat şertlerine we ähli degişli kanunlara hem-de düzgünleşdirişlere uýmaga razylaşýarsyňyz."
+    },
+
+    "section2": {
+      "title": "2. Ulanyş ygtyýarnamasy",
+      "text": "Bu ygtyýarnama esasynda size aşakdakylar gadagan edilýär:",
+      "list": [
+        "Materiallary täjirçilik maksatlary üçin üýtgetmek ýa-da nusgalamak;",
+        "Saýtdaky islendik programma üpjünçiligini dekompilyasiýa ýa-da ters inženerçilik etmäge synanyşmak;",
+        "Awtorlyk hukugyny ýa-da beýleki eýeçilik belliklerini aýyrmak;",
+        "Materiallary başga birine geçirmek ýa-da materiallary 'sergilemek' (mirroring)."
+      ]
+    },
+
+    "section3": {
+      "title": "3. Dolandyryjy kanunçylyk",
+      "text": "Şu şertler we düzgünler {{country}} kanunçylygyna laýyklykda dolandyrylýar we düşündirilýär."
+    }
+  },
+
+  "cookiePolicy": {
+    "title": "Kuki syýasaty",
+    "lastUpdated": "10-njy aprel, 2026",
+
+    "section1": {
+      "title": "1. Kuki näme?",
+      "text": "Kukiler websaýta gireniňizde kompýuteriňizde ýa-da mobil enjamyňyzda ýerleşdirilýän kiçi tekst faýllarydyr. Olar websaýtlaryň has netijeli işlemegi we saýtyň eýelerine maglumat bermek üçin giňden ulanylýar."
+    },
+
+    "section2": {
+      "title": "2. Kukileri nähili ulanýarys",
+      "text": "Biz kukileri birnäçe sebäplere görä ulanýarys, şol sanda:",
+      "list": [
+        {
+          "label": "Esasy kukiler:",
+          "desc": "Websaýtyň işlemegi üçin zerurdyr (mysal üçün, howpsuzlyk we elýeterlilik)."
+        },
+        {
+          "label": "Işjeňlik kukileri:",
+          "desc": "Maglumatlary anonim ýygnamak arkaly gelýänleriň saýt bilen nähili gatnaşyk edýändigini seljerýär."
+        },
+        {
+          "label": "Funksional kukiler:",
+          "desc": "Has giňişleýin aýratynlyklary üpjün etmek üçin saýtda beren saýlawlaryňyzy (mysal üçin, diliňizi) ýatda saklaýar."
+        }
+      ]
+    },
+
+    "section3": {
+      "title": "3. Sazlamalaryňyzy dolandyrmak",
+      "textBefore": "Brauzer sazlamalary arkaly köpülenç brauzerler kuki faýllaryny belli bir derejede dolandyrmaga rugsat berýär. Kukiler barada has giňişleýin bilmek, şol sanda haýsy kukileriň goýlandygyny, olary nähili dolandyrmalydygyny we öçürmelidigini bilmek üçin bu saýta giriň: ",
+      "linkText": "allaboutcookies.org"
+    }
+  }
+}
