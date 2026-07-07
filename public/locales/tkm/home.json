@@ -29,25 +29,25 @@
     "viewAll": "Ähli hyzmatlar",
     "details": "Jikme-jiklikler",
     "services": {
-      "residential": {
-        "title": "Öýleri çuňňur arassalamak",
-        "subtitle": "Emlägi dikeltmek",
-        "description": "Biziň çuňňur arassalaýyş hyzmatymyz gizlin tozan ojaklaryny ýok edýär, plintuslary we enjamlaryň yzlaryny dezinfeksiýa edýär hem-de ýaşaýyş meýdançalaryňyzy täzeleýär."
+      "deep": {
+        "title": "Düýpli arassalaýyş",
+        "subtitle": "Çuňňur dikeldiş",
+        "description": "Biziň düýpli arassalaýyş hyzmatymyz has tämiz we gigiýeniki gurşawy dikeltmek üçin ýygnanan hapa, ýag we gizlin galyndylary aýyrmaga gönükdirilendir."
       },
-      "upholstery": {
-        "title": "Diwan we haly idegi",
-        "subtitle": "Matalary arassalamak",
-        "description": "Senagat sanjym-sormak enjamlary siňen tegmilleri, allergenleri we yslary mebelleriňizden sorup alýar we matalary täze görnüşe getirýär."
+      "drycleaning": {
+        "title": "Gury arassalaýyş",
+        "subtitle": "Näzik tekstil idegi",
+        "description": "Haly, mebel we matalary aşa çyglandyrman täzeleýän, näzik süýümleri we örtükleri goraýan pes çyglylykly arassalaýyş usuly."
       },
       "construction": {
-        "title": "Gurluşykdan soňky tämizlik",
-        "subtitle": "Inçe tozanlary aýyrmak",
-        "description": "Mikro-tozanlaryň, boýag galyndylarynyň we silikon galyndylarynyň ýöriteleşdirilen arassalygy. Biz abatlaýyş düşen meýdançalary göni ýaşalyp bilinjek öýlere öwürýäris."
+        "title": "Gurluşykdan soňky arassalaýyş",
+        "subtitle": "Ownuk tozanlary aýyrmak",
+        "description": "Gurluşyk tozanyny, reňk yzlaryny we ýelim galyndylaryny ünsli aýyrmak. Biz täze abatlanan ýerleri ulanmaga doly taýýar ýagdaýa getirýäris."
       },
-      "commercial": {
-        "title": "Ofis we korporatiw binalar",
-        "subtitle": "Ýokary derejeli iş ýerleri",
-        "description": "Ýokary derejeli korporatiw gurşawlar üçin niýetlenilen yzygiderli we ýokary standartly ideg, iş ýeriniň estetikasyny we doly arassalygyny saklaýar."
+      "corporate": {
+        "title": "Korporatiw arassalaýyş",
+        "subtitle": "Hünär iş giňişlikleri",
+        "description": "Kärhananyňyzyň ýokary ülňülerini görkezýän we iş öndürijiligini üpjün edýän arassa, tertipli we gigiýeniki iş gurşawyny saklaýarys."
       }
     }
   },
