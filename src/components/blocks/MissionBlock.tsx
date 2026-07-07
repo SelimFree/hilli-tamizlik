@@ -72,6 +72,12 @@ export function MissionBlock() {
                   className="transition-transform duration-[1.5s] ease-out group-hover:scale-105"
                 />
 
+                <Image
+                  src="/android-chrome-192x192.png"
+                  containerClassName="absolute h-10 w-auto top-6 right-6 z-20 rounded-full pointer-events-none opacity-50 transition-opacity duration-300 group-hover:opacity-80 drop-shadow-md"
+                  alt="Company Watermark"
+                />
+
                 <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-4 rounded-lg border border-gray-100 shadow-xl flex items-center gap-4 z-10">
                   <div className="h-3 w-3 rounded-full bg-primary-600 animate-pulse shrink-0" />
                   <div className="overflow-hidden">

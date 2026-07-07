@@ -24,30 +24,30 @@
 
   "ServiceTeaserBlock": {
     "badge": "What We Do",
-    "headingStart": "Specialized deep cleaning",
+    "headingStart": "Specialized professional cleaning",
     "headingAccent": "tailored to your space.",
     "viewAll": "View All Services",
     "details": "Details",
     "services": {
-      "residential": {
-        "title": "Deep Home Cleaning",
-        "subtitle": "Property Restoration",
-        "description": "Our signature deep clean targets hidden dust vectors, sanitizes baseboards and behind appliances, and rejuvenates your living areas."
+      "deep": {
+        "title": "Deep Cleaning",
+        "subtitle": "Intensive Restoration",
+        "description": "Our deep-cleaning service targets accumulated dirt, grease, and hidden residue to restore a noticeably fresher and more hygienic environment."
       },
-      "upholstery": {
-        "title": "Sofa & Carpet Care",
-        "subtitle": "Fabric Extraction",
-        "description": "Industrial injection-suction machinery pulls embedded stains, allergens, and odors out of your upholstery, leaving fabrics refreshed."
+      "drycleaning": {
+        "title": "Dry Cleaning",
+        "subtitle": "Delicate Textile Care",
+        "description": "Low-moisture treatment that refreshes carpets, upholstery, and fabrics without excessive saturation, protecting delicate fibres and finishes."
       },
       "construction": {
         "title": "Post-Construction",
         "subtitle": "Fine Dust Elimination",
-        "description": "Specialized removal of micro-dust, paint splatters, and silicon residue. We turn raw renovation spaces into turn-key homes."
+        "description": "Precision removal of construction dust, paint marks, and adhesive residue. We transform newly renovated spaces into presentation-ready environments."
       },
-      "commercial": {
-        "title": "Office & Corporate",
-        "subtitle": "Premium Workspaces",
-        "description": "Consistent, high-standard maintenance designed for premium corporate environments, maintaining workspace aesthetics and absolute hygiene."
+      "corporate": {
+        "title": "Corporate Cleaning",
+        "subtitle": "Professional Workspaces",
+        "description": "Maintain clean, organized, and hygienic working environments that reflect the high standards of your business and ensure workplace productivity."
       }
     }
   },

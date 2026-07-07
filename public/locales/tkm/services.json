@@ -5,174 +5,201 @@
     "before": "Öň",
     "after": "Soň",
     "services": {
-      "deep": {
-        "label": "Ýokary derejeli çuňňur tämizlik",
-        "title": "Emlägi doly dikeltmek.",
-        "description": "Biziň esasy hyzmatymyz. Biz aýlap ýygnanan tozanlary aýyrýarys, gizlin ojaklary dezinfeksiýa edýäris we binägärlik bezegleriňizi ilkinji görnüşine getirýäris.",
-        "imageBeforeAlt": "Arassalaýyşdan öňki ýagdaý, tozanly gurşaw",
-        "imageAfterAlt": "Arassalaýyşdan soňky ýagdaý, doly dikeldilen arassa emläk",
+      "routine": {
+        "label": "Gündelik / Goldaw arassalaýyşy",
+        "title": "Hemişelik tämiz gurşaw üçin yzygiderli ideg.",
+        "description": "Biz ýaşaýyş we täjirçilik ýerlerini hepdeboýy tämiz, gigiýeniki we görnükli saklaýan meýilleşdirilen arassalaýyş hyzmatyny hödürleýäris. Biziň taýýarlykly toparymyz siziň emlägiňize, tertibiňize we köp adamly ýerlere laýyklaşdyrylan jikme-jik arassalaýyş meýilnamasyna eýerýär.",
+        "imageBeforeAlt": "Gündelik arassalaýyşdan öň: ýeňil tozanly ýagdaýy",
+        "imageAfterAlt": "Gündelik arassalaýyşdan soň: tämiz we görnükli ýagdaýy",
         "checklist": {
-          "baseboards": "Plintuslary we bezegleri jikme-jik ýuvmak",
-          "appliances": "Süýşürilýän tehnikalaryň yzyny/aşagyny arassalamak",
-          "windows": "Içki äpişge aýnalaryny we relslerini ýuvmak",
-          "grout": "Kafelleriň arasyny çuňňur dezinfeksiýa etmek",
-          "vents": "Howalandyryş gözenekleriniň tozanyny almak",
-          "cabinets": "Şkaflaryň daşy we tutawaçlary",
-          "doors": "Gapylaryň çarçuwalary we tok öçürijiler",
-          "floors": "Gaty pollary köp basgançakly ýuvmak"
+          "dusting": "Mebelleriň we elýeterli ýerleriň tozanyny süpürmek",
+          "vacuuming": "Haly, düşek we mebelleri tozan sorujy bilen arassalamak",
+          "mopping": "Gaty pollary süpürmek we ýuwmak",
+          "kitchen": "Aşhana ýüzlerini we enjamlaryň daşyny arassalamak",
+          "bathroom": "Banyýany arassalamak we zyýansyzlandyrmak",
+          "mirrors": "Aýna we aýna ýüzlerini ýalpyldatmak",
+          "waste": "Zibilleri ýygnamak we haltasyny çalyşmak",
+          "handles": "Gapy tutawaçlaryny we köp degilýän ýerleri zyýansyzlandyrmak",
+          "sills": "Içerki äpişge öňlerini arassalamak",
+          "inspection": "Jemleýji barlag we ýeri tabşyrmak"
         },
-        "addons": {
-          "fridge": "Holodilnik içi",
-          "oven": "Duhowka içi",
-          "cabinets": "Şkaflaryň içi"
-        }
+        "addons": {}
       },
-      "standard": {
-        "label": "Adaty ideg",
-        "title": "Kämil yzygiderli dolandyryş.",
-        "description": "Öň çuňňur arassalanan emläkler üçin niýetlenilen. Doly arassalygy we estetik kämilligi saklamak üçin yzygiderli amala aşyrylýan berk düzgün.",
-        "imageBeforeAlt": "Adaty ideg, üstleýin tozanly ýagdaý",
-        "imageAfterAlt": "Adaty ideg, ýaldyradylan üstler",
+      "deep": {
+        "label": "Düýpli arassalaýyş",
+        "title": "Görünýän ýüzlerden daşary çuňňur arassalaýyş.",
+        "description": "Biziň düýpli arassalaýyş hyzmatymyz bütin emläkdäki ýygnanan hapany, ýagy, heki, tozany we gizlin galyndylary aýyrmaga gönükdirilendir. Has tämiz we gigiýeniki gurşawy dikeltmek üçin ünsden düşürilen ýerleri, inçe şaýlary we kyn ýetileýän ýerleri arassalaýarys.",
+        "imageBeforeAlt": "Düýpli arassalaýyşdan öň: gizlin galyndylar we ýygnanan hapa",
+        "imageAfterAlt": "Düýpli arassalaýyşdan soň: doly dikeldilen tämiz emläk",
         "checklist": {
-          "dusting": "Üstleriň tozanyny almak we ýaldyratmak",
-          "vacuuming": "Ähli pollary doly tozan sorujy bilen arassalamak",
-          "mopping": "Pollary standart usulda ýuvmak",
-          "bathroom": "Sanuzelleri dezinfeksiýa etmek (unitaz, rakowina)",
-          "shower": "Duş aýnalaryny we aýnalary ýaldyratmak",
-          "kitchen": "Aşhana stollaryny we rakowinasyny arassalamak",
-          "trash": "Hapalary aýyrmak we paketi çalyşmak",
-          "tidying": "Umumy tertipleşdirmek we düşekleri ýazmak"
+          "dusting": "Ýüzlerden we mebellerden tozany jikme-jik aýyrmak",
+          "furniture": "Mebelleriň arkasyny we aşagyny arassalamak",
+          "degreasing": "Aşhanany ýaglardan çuňňur arassalamak",
+          "descaling": "Banyýada heki aýyrmak we zyýansyzlandyrmak",
+          "skirting": "Plintuslary we burçlary jikme-jik arassalamak",
+          "doors": "Gapylary, çarçuwalary we tutawaçlary arassalamak",
+          "cabinets": "Şkaflaryň we çekerleriň içini arassalamak",
+          "vents": "Wentilýasiýa, gözenek we elýeterli şaýlaryň tozanyny aýyrmak",
+          "floors": "Pollary sürtüp ýuwmak we gyralaryny arassalamak",
+          "spots": "Tegmilleri we galyndylary ýörite usul bilen aýyrmak",
+          "windows": "Içerki äpişgeleri we aýnalary arassalamak",
+          "inspection": "Jemleýji gigiýena we hil barlagy"
         },
-        "addons": {
-          "balcony": "Balkon tämizligi",
-          "carpet": "Halylary çuňňur ýuvmak"
-        }
+        "addons": {}
       },
       "construction": {
-        "label": "Gurluşykdan soň",
-        "title": "Gurluşyk meýdançasyndan taýyn öýe.",
-        "description": "Senagat derejeli tozan sorujy ulgamy. Biz täze bezeglere zeper ýetirmezden gipsokarton tozanlaryny, silikon galyndylaryny we boýag tegmilerini howpsuz aýyrýarys.",
-        "imageBeforeAlt": "Gurluşykdan soňky tozan we galyndylar",
-        "imageAfterAlt": "Gurluşykdan soňky göni ýaşalyp bilinjek kaşaň öý",
+        "label": "Gurluşykdan / Remontdan soňky arassalaýyş",
+        "title": "Gurluşyk tozanyny we galyndylaryny takyk aýyrmak.",
+        "description": "Biz täze gurlan ýa-da abatlanan ýerleri arassa, howpsuz we ulanmaga taýýar görnüşe getirýäris. Toparymyz täze gurluşlara zeper ýetirmezden ownuk gurluşyk tozanyny, reňk yzlaryny, ýelim galyndylaryny, gaby ýykyndylaryny we ýüzlerdäki hapalary aýyrýar.",
+        "imageBeforeAlt": "Gurluşykdan soň: ownuk tozan, gaplaň we zibil",
+        "imageAfterAlt": "Gurluşykdan soň: ulanmaga doly taýýar ýagdaý",
         "checklist": {
-          "dust": "Diwarlaryň we potologyň inçe tozanyny aýyrmak",
-          "paint": "Boýag galyndylaryny we skotç yzlaryny arassalamak",
-          "adhesive": "Äpişgelerdäki nakleýkalary we ýelimleri aýyrmak",
-          "hvac": "Wentilyasiýa ojaklaryny çuňňur arassalamak",
-          "cabinets": "Täze şkaflaryň içini we daşyny arassalamak",
-          "fixtures": "Santexnika enjamlaryny ýaldyratmak",
-          "sweep": "Poluň mikro-tozanyny köp basgançakly süpürmek",
-          "turnkey": "Soňky taýyn ýaldyratmak düzgüni"
+          "extraction": "Ownuk gurluşyk tozanyny aýyrmak",
+          "detailing": "Pollary, diwarlary we plintuslary jikme-jik arassalamak",
+          "paint": "Reňk we suwag tegmillerini aýyrmak",
+          "residue": "Ýelim, silikon we bellig galyndylaryny aýyrmak",
+          "windows": "Äpişgeleri, çarçuwalary we yzlary arassalamak",
+          "cabinets": "Şkaflaryň we şifonerleriň içini arassalamak",
+          "fixtures": "Şaýlary we gurnamalary ýalpyldatmak",
+          "tile": "Kafel we zatiirka galyndylaryny aýyrmak",
+          "doors": "Gapylary we çarçuwalary jikme-jik arassalamak",
+          "exterior": "Balkonlary we daşarky girelgeleri arassalamak",
+          "packaging": "Gaplaňlary we ýeňil zibilleri ýygnamak",
+          "handover": "Tabşyryşdan öňki jemleýji barlag"
         },
-        "addons": {
-          "windows": "Daşky äpişge aýnalary",
-          "pressure": "Ýokary basyşly ýuvmak"
-        }
+        "addons": {}
       },
-      "upholstery": {
-        "label": "Diwan we ýumşak mebel",
-        "title": "Çuňňur sanjym-sormak arkaly arassalamak.",
-        "description": "Matalaryň çuň gatlaklaryny täzeleýän güýçli ýylylyk enjamlaryny ulanyp, gymmat bahaly mebelleriň matalaryndan siňen tozan sakyrtgalaryny, derleri, tegmilleri we bakteriýalary sorup alýarys.",
-        "imageBeforeAlt": "Mebeliň matasynda siňen hapalaryň ýygnanmagy",
-        "imageAfterAlt": "Mebeliň matasynyş arassalanandan soňra doly täzelenmegi",
+      "corporate": {
+        "label": "Ofis we korporatiw arassalaýyş",
+        "title": "Öndürijilikli iş ýerleri üçin hünär arassalaýyşy.",
+        "description": "Biz kärhananyňyzyň ülňülerini görkezýän arassa, tertipli we gigiýeniki iş gurşawyny saklaýarys. Hyzmatlar islendik ululykdaky ofisler üçin ýörite tertip bilen iş wagtyndan öň, iş wagtynda ýa-da soň gurnalyp bilner.",
+        "imageBeforeAlt": "Arassalanmadyk ofis iş ýeri",
+        "imageAfterAlt": "Kämil arassa korporatiw iş gurşawy",
         "checklist": {
-          "vacuuming": "Matalary senagat tozan sorujysy bilen arassalamak",
-          "stains": "Tegmilleri ýörite deslapky arassalamak",
-          "extraction": "Çuňňur arassalaýjy suwuklyk sanjymy",
-          "pile": "Mikro-süýümleriň ugruny düzetmek",
-          "odour": "Yslary fermentler (enzimler) bilen aýyrmak",
-          "crevice": "Gatlaklaryň we ýassyklaryň aşagyny arassalamak",
+          "desks": "Stollary we iş ýerlerini arassalamak",
+          "furniture": "Ofis mebelleriniň tozanyny aýyrmak",
+          "floors": "Halylary tozan sorujy bilen arassalamak we gaty pollara ideg etmek",
+          "reception": "Mejlisler otagyny we kabulhana arassalamak",
+          "pantry": "Aşhana we umumy iýmitleniş ýerlerini arassalamak",
+          "washrooms": "Häjethanalary arassalamak we zyýansyzlandyrmak",
+          "disinfection": "Köp degilýän ýerleri zyýansyzlandyrmak",
+          "glass": "Içerki aýna germewlerini arassalamak",
+          "waste": "Zibilleri ýygnamak we sebetleri çalyşmak",
+          "common": "Liftleri, koridorlary we umumy ýerleri arassalamak",
+          "supply": "Talap edilmegine görä sarp ediş materiallaryny barlamak",
+          "inspection": "Meýilleşdirilen hil barlaglary"
+        },
+        "addons": {}
+      },
+      "drycleaning": {
+        "label": "Gury arassalaýyş",
+        "title": "Näzik tekstiller üçin pes çyglylykly bejergi.",
+        "description": "Biziň hünär gury arassalaýyş usulymyz çyglylyga duýgur halylary, düşekleri, mebelleri, perdeleri we mata ýüzlerini aşa ezmän täzeleýär. Ýörite arassalaýjy serişdeler näzik süýümleri gorap, ýüzlerdäki ýaglary, tozany, yslary we tegmilleri aýyrmaga kömek edýär.",
+        "imageBeforeAlt": "Tozan we tegmil siňen näzik tekstiller",
+        "imageAfterAlt": "Täzelenen we kämil arassa mata",
+        "checklist": {
+          "assessment": "Tekstiliň ýagdaýyny jikme-jik barlamak",
+          "vacuuming": "Senagat gury tozan sorujysy bilen arassalamak",
+          "pretreatment": "Tegmilleri öňünden ýörite bejermek",
+          "compound": "Pes çyglylykly arassalaýjy serişdäni çalmak",
+          "agitation": "Süýümleri gözegçilikli mehaniki arassalamak",
+          "spot": "Matany gorap tegmilleri aýyrmak",
+          "odour": "Yslary aýyrmak üçin bejergi",
           "allergen": "Allergenleri we haýwan tüýlerini aýyrmak",
-          "drying": "Näzik süýümleri howpsuz guratmak"
+          "fibre": "Süýümleri we ülpükleri tertibe getirmek",
+          "finishing": "Çalt we pes çyglylykly jemlemek",
+          "detailing": "Gyralary, burçlary we jaýryklary arassalamak",
+          "inspection": "Tekstiliň jemleýji barlagy"
         },
-        "addons": {
-          "pillow": "Ýastyklary dikeltmek",
-          "leather": "Gön mebelleri ýumşatmak"
-        }
+        "addons": {}
       },
-      "carpet": {
-        "label": "Halylary dikeltmek",
-        "title": "Senagat derejeli süýüm täzelemesi.",
-        "description": "Köp geçilýän ýerlerdäki haly düşekleri çuňňur hapadan arassalamagy talap edýär. Biziň senagat rotasiýa şetkalarymyz wagtyň geçmegi bilen halynyň dokalşyny bozýan çuňňur çägeleri we gaty hapalary sorup alýar.",
-        "imageBeforeAlt": "Halyda galan agyr hapa yzlary",
-        "imageAfterAlt": "Haly çuňňur arassalanandan we suwy sorulandan soň",
+      "pressure": {
+        "label": "Ýokary basyşly ýuwuş",
+        "title": "Çydamly daş we kafel ýüzlerini ýokary basyş bilen dikeltmek.",
+        "description": "Biz granit plitalaryndan, ýodajyk daşlaryndan, keramiki kafellerden we mermerden siňen hapalary, atmosfera galyndylaryny, suwotularyny, tegmilleri we ýüzki örtükleri aýyrýarys. Basyş derejesi we arassalaýyş usullary her ýüzüň materialyna we ýagdaýyna görä ünsli saýlanylýar.",
+        "imageBeforeAlt": "Suwoty we hapa basan daş ýüzi",
+        "imageAfterAlt": "Dikeldilen kämil arassa daş ýüzi",
         "checklist": {
-          "lifting": "Halynyň tüýlerini mehaniki galdyrmak",
-          "vacuuming": "Halynyň gyralaryny çuňňur tozan sorujy bilen arassalamak",
-          "encapsulation": "Tegmilleri himiki kapsulirleme usuly",
-          "rinse": "Gyzgyn suwly ekstraktor bilen ýuvmak",
-          "conditioning": "pH-balansirlenen ýumşadyjy bilen işlemek",
-          "extraction": "Senagat derejeli çyglylygy sorup almak",
-          "scrubbing": "Gatanyp galan agyr tegmilleri sürtüp aýyrmak",
-          "misting": "Dezinfeksiýa ediji duman gatlagy"
+          "assessment": "Ýüzüň ýagdaýyny we materialyny barlamak",
+          "debris": "Gowşak zibilleri we tozany aýyrmak",
+          "pretreatment": "Tegmilleri öňünden ýörite bejermek",
+          "washing": "Gözegçilikli basyş bilen ýuwmak",
+          "grout": "Zatiirka we sepleşikleri arassalamak",
+          "algae": "Suwotulary we organiki örtükleri aýyrmak",
+          "oil": "Ýag we teker yzlaryny aýyrmak",
+          "detailing": "Gyralary we burçlary arassalamak",
+          "sensitive": "Näzik daşlar üçin pes basyşly bejergi",
+          "rinsing": "Ýüzüni çaýkamak we galyndylary aýyrmak",
+          "protection": "Daş-töweregi goramak",
+          "inspection": "Arassalygyň jemleýji barlagy"
         },
-        "addons": {
-          "stainguard": "Tegmilden goraýjy örtük",
-          "petodor": "Haýwanlaryň ysyny aýyrmak"
-        }
+        "addons": {}
       },
-      "turnover": {
-        "label": "Göçmek (Girmek / Çykmak)",
-        "title": "Emlägi täze ýaşaýşa doly taýýarlamak.",
-        "description": "Öňki ýaşan adamlaryň ähli yzlaryny öçürmekcube niýetlenilen güýçli arassalaýyş. Öý eýeleri, ýokary derejeli emläk agentlikleri we täze jaý satyn alanlar üçin amatlydyr.",
-        "imageBeforeAlt": "Öňki ýaşaýjylardan soň tertipsiz galan jaýyň içi",
-        "imageAfterAlt": "Täze ýaşaýşa taýýarlanyp, kämil ýagdaýa getirilen jaýyň içi",
+      "facade": {
+        "label": "Binalaryň daşyny we fasadyny arassalamak",
+        "title": "Ýerden başlap belentlige çenli hünärli daşarky ideg.",
+        "description": "Tozany, hapany, suw yzlaryny, organiki galyndylary we howa şertleri bilen bagly tegmilleri aýyrmak arkaly binalaryň daşky keşbini dikeldýäris. Toparymyz aýna, daş, metal, örtük, suwag we beýleki fasad materiallary üçin laýyk enjamlary we usullary saýlaýar.",
+        "imageBeforeAlt": "Howa tegmilleri we hapa yzlary bolan binanyň daşy",
+        "imageAfterAlt": "Dikeldilen arassa bina fasady",
         "checklist": {
-          "cabinets": "Aşhana şkaflarynyň içini çuňňur ýuvmak",
-          "oven": "Duhowkanyň we plitanyň ýagyny arassalamak",
-          "fridge": "Holodilnikyň buzuny eretmek we dezinfeksiýa etmek",
-          "wardrobe": "Garderob şkaflarynyň içini arassalamak",
-          "wall": "Diwarlardaky tegmilleri lokally ýuvmak",
-          "fixture": "Çyralary we lýustralary jikme-jik arassalamak",
-          "exhaust": "Aşhana sorujy torlaryny ýagdan arassalamak",
-          "bathroom": "Sanuzeldäki hek galyndylaryny eritmek"
+          "assessment": "Daşky ýüzüň ýagdaýyny barlamak",
+          "dust": "Tozan we atmosfera galyndylaryny aýyrmak",
+          "washing": "Fasady ýuwmak we gözegçilikli çaýkamak",
+          "glass": "Aýnalary we daşarky äpişgeleri arassalamak",
+          "cladding": "Örtükleri we panelleri arassalamak",
+          "stone": "Daş we suwag edilen ýüzleri arassalamak",
+          "marks": "Suw we hapa tegmillerini aýyrmak",
+          "ledge": "Gernewleri, çarçuwalary we arhitektura şaýlaryny arassalamak",
+          "algae": "Suwotulary we organiki örtükleri aýyrmak",
+          "entrance": "Girelgeleri jikme-jik arassalamak",
+          "protection": "Daş-töweregi goramak",
+          "inspection": "Daş-töweregiň jemleýji barlagy"
         },
-        "addons": {
-          "garage": "Garajy çuňňur süpürmek",
-          "wallwashing": "Diwarlary doly ýuvmak"
-        }
+        "addons": {}
       },
-      "commercial": {
-        "label": "Korporatiw meýdançalar",
-        "title": "Iş ýerlerini ýokary derejede saklamak.",
-        "description": "Doly korporatiw professionalizmi saklaň. Ýokary derejeli ofisler, butikler we şourumlar üçin niýetlenilen ýokary ýygylykly we kämil sanitariýa.",
-        "imageBeforeAlt": "Ofisde arassalanmadyk iş ýeri",
-        "imageAfterAlt": "Kämil we ýokary derejeli korporatiw ofis gurşawy",
+      "chandelier": {
+        "label": "Lýustralary arassalamak",
+        "title": "Her dürli we ölçegdäki lýustralar üçin jikme-jik ideg.",
+        "description": "Näzik hrustallary, aýna böleklerini, metal çarçuwalary, bezeg elementlerini we elektrik şaýlaryny goramak bilen lýustralary ünsli arassalaýarys. Her bir çyra aýratyn barlanylýar we materialyna, ölçegine we gurnalan beýikligine laýyk usullar bilen arassalanýar.",
+        "imageBeforeAlt": "Tozanly hrustally we solgun metal çarçuwaly lýustra",
+        "imageAfterAlt": "Ýalpyldawuk hrustally we owadan lýustra",
         "checklist": {
-          "workstation": "Iş ýerlerini we stollary dezinfeksiýa etmek",
-          "partition": "Aýna germeçleri tegmilsiz arassalamak",
-          "hallway": "Köp geçilýän koridorlaryň poluna ideg etmek",
-          "breakroom": "Umumy naharlanma otaglaryny çuňňur dezinfeksiýa etmek",
-          "conference": "Maslahat otaglaryndaky enjamlary süpürmek",
-          "hvac": "Merkezi wentilyasiýa gözenekleriniň tozanyny almak",
-          "shredder": "Kagyz kesilýän ýerleri we resminamalary arassalamak",
-          "trash": "Hapalary yzygiderli ýygnamak we şetgilemek ulgamy"
+          "assessment": "Çyranyň ýagdaýyny we elýeterliligini barlamak",
+          "protection": "Golaýdaky mebelleri we poly goramak",
+          "crystal": "Hrustallary we aýnalary ýekeme-ýeke arassalamak",
+          "metal": "Çarçuwanyň we bezeg metallarynyň tozanyny aýyrmak",
+          "detailing": "Şahalary, zynjyrly we gurnamalary arassalamak",
+          "residue": "Barmak yzlaryny we galyndylary howpsuz aýyrmak",
+          "polishing": "Sürtmesiz ýalpyldatmak",
+          "bulbs": "Elýeterli ýerlerde lampalaryň daşyny arassalamak",
+          "alignment": "Hrustallary tertiplemek we owadanlamak",
+          "highlevel": "Gerek bolanda beýiklik enjamlaryny ulanmak",
+          "moisture": "Gözegçilikli çyglylygy ulanmak",
+          "inspection": "Jemleýji yşyk we daşky keşp barlagy"
         },
-        "addons": {
-          "serverroom": "Serwer otaglaryny antistatik arassalamak",
-          "ecofog": "Howany ekologik duman bilen dezinfeksiýa etmek"
-        }
+        "addons": {}
       },
       "windows": {
-        "label": "Äpişgeler we Fasadlar",
-        "title": "Tegmilsiz we açyk aýna durylygy.",
-        "description": "Hek galyndylaryny we tozan üýşmelerini aýyrýarys. Biz ýokary hilli aýna gurnamalaryny ýöрите gural ulgamlary arkaly kämil ýagdaýa getirýäris.",
-        "imageBeforeAlt": "Hek we tozan galyndylary bolan aýna paneli",
-        "imageAfterAlt": "Tegmilsiz, aýna durylygyndaky aýna paneli",
+        "label": "Äpişgeleri arassalamak",
+        "title": "Her dürli we ölçegdäki äpişgeler üçin yzsyz arassalyk.",
+        "description": "Biz ýaşaýyş, täjirçilik, içerki, daşarky, beýiklikdäki we ýörite äpişge ulgamlaryny hünärli arassalaýarys. Biziň usullarymyz aýnany, çarçuwalary, rezinleri we daş-töweregi gorap, tozany, barmak yzlaryny, suw tegmillerini, hapalary we tebigy galyndylary aýyrýar.",
+        "imageBeforeAlt": "Barmak yzlary we suw tegmilleri bolan äpişge aýnasy",
+        "imageAfterAlt": "Yzsyz we dury äpişge aýnasy",
         "checklist": {
-          "mineral": "Agyr mineral galyndylaryny gyrp аýyrmak",
-          "track": "Äpişge relslerini ýokary basyşly arassalamak",
-          "flyscreen": "Tozan torlaryny ýokary basyşly ýuvmak",
-          "rubber": "Rezin kistleri silikon bilen ýumşatmak",
-          "solution": "Ýörite ergin bilen tegmilsiz ýaldyratmak",
-          "sill": "Daşky äpişge üstlerini ýokary basyşly ýuvmak",
-          "balcony": "Süýşürilýän balkon aýnalarynyň relsleri",
-          "highreach": "Ýokary çarçuwalaryň tozanyny almak"
+          "glass": "Içerki we daşarky aýnalary arassalamak",
+          "frames": "Çarçuwalary we öňlerini arassalamak",
+          "tracks": "Äpişge yzlaryny we kanallaryny arassalamak",
+          "fingerprints": "Barmak yzlaryny we ýaglary aýyrmak",
+          "marks": "Suw yzlaryny we mineral galyndylary aýyrmak",
+          "detailing": "Gyralary we burçlary jikme-jik arassalamak",
+          "doors": "Aýna gapylary we germewleri arassalamak",
+          "skylights": "Elýeterli bolan potolok äpişgelerini arassalamak",
+          "highlevel": "Gerek bolanda beýiklikdäki äpişgeleri arassalamak",
+          "polishing": "Aýnany sürtmesiz ýalpyldatmak",
+          "protection": "Daş-töwerekdäki ýüzleri goramak",
+          "inspection": "Yzsyzlyk we durulyk boýunça jemleýji barlag"
         },
-        "addons": {
-          "oxidation": "Çarçuwalary okislenmeden arassalamak",
-          "rainrepellent": "Ýagyş goraýjy örtük çalmak"
-        }
+        "addons": {}
       }
     }
   },

@@ -10,12 +10,12 @@ import { cn } from "../../lib/utils";
 
 const SERVICES = [
     {
-        id: "residential",
+        id: "deep",
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200",
         icon: Home,
     },
     {
-        id: "upholstery",
+        id: "drycleaning",
         image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200",
         icon: Sofa,
     },
@@ -25,17 +25,17 @@ const SERVICES = [
         icon: Construction,
     },
     {
-        id: "commercial",
+        id: "corporate",
         image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200",
         icon: Building2,
     },
 ];
 
 const gridLayoutClasses: Record<string, string> = {
-    residential: "md:grid-cols-[2.2fr_1fr] md:grid-rows-[2.2fr_1fr]",
-    upholstery: "md:grid-cols-[1fr_2.2fr] md:grid-rows-[2.2fr_1fr]",
+    deep: "md:grid-cols-[2.2fr_1fr] md:grid-rows-[2.2fr_1fr]",
+    drycleaning: "md:grid-cols-[1fr_2.2fr] md:grid-rows-[2.2fr_1fr]",
     construction: "md:grid-cols-[2.2fr_1fr] md:grid-rows-[1fr_2.2fr]",
-    commercial: "md:grid-cols-[1fr_2.2fr] md:grid-rows-[1fr_2.2fr]",
+    corporate: "md:grid-cols-[1fr_2.2fr] md:grid-rows-[1fr_2.2fr]",
     default: "md:grid-cols-[1fr_1fr] md:grid-rows-[1fr_1fr]",
 };
 

@@ -84,11 +84,11 @@ export function CalculatorBlock() {
           </FadeIn>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12 items-start">
+        <FadeIn direction="up" delay={300}>
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-12 items-start">
 
-          <div className="lg:col-span-7 xl:col-span-8 flex flex-col gap-10">
+            <div className="lg:col-span-7 xl:col-span-8 flex flex-col gap-10">
 
-            <FadeIn direction="up" delay={300}>
               <div className="rounded-lg border border-gray-200 bg-white p-6 sm:p-8 shadow-sm">
                 <div className="flex items-center justify-between mb-6">
                   <Heading className="text-lg font-bold text-gray-900">{t("CalculatorBlock.step1Title")}</Heading>
@@ -109,9 +109,7 @@ export function CalculatorBlock() {
                   <span>{t("CalculatorBlock.rangeMax")}</span>
                 </div>
               </div>
-            </FadeIn>
 
-            <FadeIn direction="up" delay={450}>
               <div className="rounded-lg border border-gray-200 bg-white p-6 sm:p-8 shadow-sm">
                 <Heading className="text-lg font-bold text-gray-900 mb-6">{t("CalculatorBlock.step2Title")}</Heading>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -141,9 +139,7 @@ export function CalculatorBlock() {
                   ))}
                 </div>
               </div>
-            </FadeIn>
 
-            <FadeIn direction="up" delay={600}>
               <div className="rounded-lg border border-gray-200 bg-white p-6 sm:p-8 shadow-sm">
                 <Heading className="text-lg font-bold text-gray-900 mb-6">{t("CalculatorBlock.step3Title")}</Heading>
 
@@ -173,12 +169,10 @@ export function CalculatorBlock() {
                   })}
                 </div>
               </div>
-            </FadeIn>
 
-          </div>
+            </div>
 
-          <div className="lg:col-span-5 xl:col-span-4 sticky top-28">
-            <FadeIn direction="up" delay={750}>
+            <div className="lg:col-span-5 xl:col-span-4 sticky top-28">
               <div className="rounded-lg bg-gray-900 border border-gray-800 p-6 sm:p-8 shadow-2xl overflow-hidden relative">
 
                 <div className="absolute -top-24 -right-24 h-48 w-48 bg-primary-600/20 rounded-full blur-3xl pointer-events-none" />
@@ -217,11 +211,10 @@ export function CalculatorBlock() {
                   <ChevronRight className="h-4 w-4 opacity-70 transition-transform duration-300 group-hover:translate-x-1" />
                 </Button>
               </div>
-            </FadeIn>
+            </div>
           </div>
-
-        </div>
+        </FadeIn>
       </div>
-    </section>
+    </section >
   );
 }

@@ -10,60 +10,67 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 const SERVICES_DATA = [
     {
+        id: "routine",
+        imageBefore: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800",
+        imageAfter: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800",
+        checklist: ["dusting", "vacuuming", "mopping", "kitchen", "bathroom", "mirrors", "waste", "handles", "sills", "inspection"],
+        addons: [],
+    },
+    {
         id: "deep",
         imageBefore: "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?q=80&w=800",
         imageAfter: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800",
-        checklist: ["baseboards", "appliances", "windows", "grout", "vents", "cabinets", "doors", "floors"],
-        addons: ["fridge", "oven", "cabinets"],
-    },
-    {
-        id: "standard",
-        imageBefore: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800",
-        checklist: ["dusting", "vacuuming", "mopping", "bathroom", "shower", "kitchen", "trash", "tidying"],
-        addons: ["balcony", "carpet"],
+        checklist: ["dusting", "furniture", "degreasing", "descaling", "skirting", "doors", "cabinets", "vents", "floors", "spots", "windows", "inspection"],
+        addons: [],
     },
     {
         id: "construction",
         imageBefore: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=800",
         imageAfter: "https://images.unsplash.com/photo-1628177142898-93e46e46503f?q=80&w=800",
-        checklist: ["dust", "paint", "adhesive", "hvac", "cabinets", "fixtures", "sweep", "turnkey"],
-        addons: ["windows", "pressure"],
+        checklist: ["extraction", "detailing", "paint", "residue", "windows", "cabinets", "fixtures", "tile", "doors", "exterior", "packaging", "handover"],
+        addons: [],
     },
     {
-        id: "upholstery",
-        imageBefore: "https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=800",
-        checklist: ["vacuuming", "stains", "extraction", "pile", "odour", "crevice", "allergen", "drying"],
-        addons: ["pillow", "leather"],
-    },
-    {
-        id: "carpet",
-        imageBefore: "https://images.unsplash.com/photo-1558317374-067fb5f30001?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=800",
-        checklist: ["lifting", "vacuuming", "encapsulation", "rinse", "conditioning", "extraction", "scrubbing", "misting"],
-        addons: ["stainguard", "petodor"],
-    },
-    {
-        id: "turnover",
-        imageBefore: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=800",
-        checklist: ["cabinets", "oven", "fridge", "wardrobe", "wall", "fixture", "exhaust", "bathroom"],
-        addons: ["garage", "wallwashing"],
-    },
-    {
-        id: "commercial",
+        id: "corporate",
         imageBefore: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800",
         imageAfter: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800",
-        checklist: ["workstation", "partition", "hallway", "breakroom", "conference", "hvac", "shredder", "trash"],
-        addons: ["serverroom", "ecofog"],
+        checklist: ["desks", "furniture", "floors", "reception", "pantry", "washrooms", "disinfection", "glass", "waste", "common", "supply", "inspection"],
+        addons: [],
+    },
+    {
+        id: "drycleaning",
+        imageBefore: "https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=800",
+        imageAfter: "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=800",
+        checklist: ["assessment", "vacuuming", "pretreatment", "compound", "agitation", "spot", "odour", "allergen", "fibre", "finishing", "detailing", "inspection"],
+        addons: [],
+    },
+    {
+        id: "pressure",
+        imageBefore: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800",
+        imageAfter: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=800",
+        checklist: ["assessment", "debris", "pretreatment", "washing", "grout", "algae", "oil", "detailing", "sensitive", "rinsing", "protection", "inspection"],
+        addons: [],
+    },
+    {
+        id: "facade",
+        imageBefore: "https://images.unsplash.com/photo-1558317374-067fb5f30001?q=80&w=800",
+        imageAfter: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=800",
+        checklist: ["assessment", "dust", "washing", "glass", "cladding", "stone", "marks", "ledge", "algae", "entrance", "protection", "inspection"],
+        addons: [],
+    },
+    {
+        id: "chandelier",
+        imageBefore: "https://images.unsplash.com/photo-1562916606-2cb3a6d71b3e?q=80&w=800",
+        imageAfter: "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?q=80&w=800",
+        checklist: ["assessment", "protection", "crystal", "metal", "detailing", "residue", "polishing", "bulbs", "alignment", "highlevel", "moisture", "inspection"],
+        addons: [],
     },
     {
         id: "windows",
         imageBefore: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=800",
         imageAfter: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800",
-        checklist: ["mineral", "track", "flyscreen", "rubber", "solution", "sill", "balcony", "highreach"],
-        addons: ["oxidation", "rainrepellent"],
+        checklist: ["glass", "frames", "tracks", "fingerprints", "marks", "detailing", "doors", "skylights", "highlevel", "polishing", "protection", "inspection"],
+        addons: [],
     },
 ];
 
@@ -151,12 +158,14 @@ export function ServiceManifestoBlock() {
 
                         <FadeIn direction="right" delay={200} className="w-full mb-8">
                             <div className="flex flex-wrap gap-2 sm:gap-3">
-                                {activeData.addons.map((addonKey) => (
-                                    <div key={addonKey} className="flex items-center gap-1.5 px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-md text-xs font-bold text-gray-600">
-                                        <Plus className="h-3.5 w-3.5 text-primary-400" strokeWidth={3} />
-                                        {t(`ServiceManifestoBlock.services.${activeData.id}.addons.${addonKey}`)}
-                                    </div>
-                                ))}
+                                {activeData?.id && Array.isArray(activeData.addons) && activeData.addons.length > 0 && (
+                                    activeData.addons.map((addonKey: string) => (
+                                        <div key={addonKey} className="flex items-center gap-1.5 px-3 py-1.5 bg-gray-50 border border-gray-200 rounded-md text-xs font-bold text-gray-600">
+                                            <Plus className="h-3.5 w-3.5 text-primary-400" strokeWidth={3} />
+                                            {t(`ServiceManifestoBlock.services.${activeData.id}.addons.${addonKey}` as const)}
+                                        </div>
+                                    ))
+                                )}
                             </div>
                         </FadeIn>
 
@@ -179,6 +188,12 @@ export function ServiceManifestoBlock() {
                                         containerClassName="h-full w-full"
                                         className="transition-transform duration-700 group-hover:scale-105"
                                     />
+                                    <Image
+                                        src="/android-chrome-192x192.png"
+                                        containerClassName="absolute h-10 w-auto bottom-3 left-3 z-20 rounded-full pointer-events-none opacity-50 transition-opacity duration-300 group-hover:opacity-80 drop-shadow-md"
+                                        alt="Company Watermark"
+                                    />
+
                                 </div>
 
                                 <div className="relative rounded-lg overflow-hidden border border-gray-200 shadow-sm group bg-gray-100">
@@ -192,6 +207,11 @@ export function ServiceManifestoBlock() {
                                         alt={t(`ServiceManifestoBlock.services.${activeData.id}.imageAfterAlt`)}
                                         containerClassName="h-full w-full"
                                         className="transition-transform duration-700 group-hover:scale-105"
+                                    />
+                                    <Image
+                                        src="/android-chrome-192x192.png"
+                                        containerClassName="absolute h-10 w-auto bottom-3 right-3 z-20 rounded-full pointer-events-none opacity-50 transition-opacity duration-300 group-hover:opacity-80 drop-shadow-md"
+                                        alt="Company Watermark"
                                     />
                                 </div>
 

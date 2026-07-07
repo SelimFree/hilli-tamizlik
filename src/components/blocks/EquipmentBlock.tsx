@@ -72,7 +72,7 @@ export function EquipmentBlock() {
                         const Icon = pillar.icon;
 
                         return (
-                            <FadeIn direction="up" delay={400 + index * 100} className={cn(
+                            <FadeIn direction="up" delay={400 + index * 100} key={index} className={cn(
                                 "group relative w-full h-65 sm:h-70 rounded-lg overflow-hidden cursor-default bg-gray-900",
                                 pillar.gridClass
                             )}>
