@@ -6,12 +6,11 @@ import { Text } from "../ui/Text";
 import { FadeIn } from "../utils/FadeIn";
 import { cn } from "../../lib/utils";
 import { Sparkles, MessageCircle, PhoneCall } from "lucide-react";
+import SliderImg1 from "../../assets/home/slider/slider_img_1.png";
+import SliderImg2 from "../../assets/home/slider/slider_img_2.png";
+import SliderImg3 from "../../assets/home/slider/slider_img_3.png";
 
-const SLIDER_IMAGES = [
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000",
-    "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2000",
-    "https://images.unsplash.com/photo-1527515637462-cff948817765?q=80&w=2000",
-];
+const SLIDER_IMAGES = [SliderImg1, SliderImg2, SliderImg3];
 
 export function HeroBlock() {
     const { t } = useTranslation("home");

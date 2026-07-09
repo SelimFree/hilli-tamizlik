@@ -6,6 +6,7 @@ import { Text } from "../ui/Text";
 import { Button } from "../ui/Button";
 import { Image } from "../ui/Image";
 import { FadeIn } from "../utils/FadeIn";
+import MissionImg from "../../assets/about/mission.png";
 
 export function MissionBlock() {
   const { t } = useTranslation("about");
@@ -66,7 +67,7 @@ export function MissionBlock() {
                 <div className="hidden md:block absolute inset-4 -bottom-4 -left-4 bg-primary-50 rounded-lg -z-10 transition-transform duration-500 group-hover:translate-x-1" />
 
                 <Image
-                  src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200"
+                  src={MissionImg}
                   alt={t("MissionBlock.imageAlt")}
                   containerClassName="w-full h-full rounded-lg shadow-xl border border-gray-100"
                   className="transition-transform duration-[1.5s] ease-out group-hover:scale-105"
