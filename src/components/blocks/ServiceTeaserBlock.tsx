@@ -7,26 +7,31 @@ import { Text } from "../ui/Text";
 import { Button } from "../ui/Button";
 import { FadeIn } from "../utils/FadeIn";
 import { cn } from "../../lib/utils";
+import DeepImg from "../../assets/services/deep_after.png";
+import ConstructionImg from "../../assets/services/construction_after.png";
+import CorporateImg from "../../assets/services/corporate_after.png";
+import DrycleaningImg from "../../assets/services/drycleaning_after.png";
+
 
 const SERVICES = [
     {
         id: "deep",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200",
+        image: DeepImg,
         icon: Home,
     },
     {
         id: "drycleaning",
-        image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200",
+        image: DrycleaningImg,
         icon: Sofa,
     },
     {
         id: "construction",
-        image: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1200",
+        image: ConstructionImg,
         icon: Construction,
     },
     {
         id: "corporate",
-        image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200",
+        image: CorporateImg,
         icon: Building2,
     },
 ];

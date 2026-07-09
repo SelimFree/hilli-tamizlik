@@ -6,35 +6,41 @@ import { Image } from "../ui/Image";
 import { FadeIn } from "../utils/FadeIn";
 import { cn } from "../../lib/utils";
 
+import MachineryImg from "../../assets/about/equipment/machinery.png";
+import ChemistryImg from "../../assets/about/equipment/chemistry.png";
+import AirQualityImg from "../../assets/about/equipment/air-quality.png";
+import SteamImg from "../../assets/about/equipment/steam.png";
+import MicrofiberImg from "../../assets/about/equipment/microfiber.png";
+
 const TECH_PILLARS = [
     {
         id: "machinery",
         icon: Zap,
-        image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800",
+        image: MachineryImg,
         gridClass: "md:col-span-4",
     },
     {
         id: "chemistry",
         icon: Leaf,
-        image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800",
+        image: ChemistryImg,
         gridClass: "md:col-span-4",
     },
     {
         id: "air-quality",
         icon: Wind,
-        image: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=800",
+        image: AirQualityImg,
         gridClass: "md:col-span-4",
     },
     {
         id: "steam",
         icon: Thermometer,
-        image: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=800",
+        image: SteamImg,
         gridClass: "md:col-start-3 md:col-span-4",
     },
     {
         id: "microfiber",
         icon: Layers,
-        image: "https://images.unsplash.com/photo-1628177142898-93e46e46503f?q=80&w=800",
+        image: MicrofiberImg,
         gridClass: "md:col-span-4",
     },
 ];

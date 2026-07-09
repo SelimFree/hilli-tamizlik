@@ -7,68 +7,94 @@ import { Image } from "../ui/Image";
 import { FadeIn } from "../utils/FadeIn";
 import { cn } from "../../lib/utils";
 import { useLocation, useNavigate } from "react-router-dom";
+import RoutineBeforeImg from "../../assets/services/routine_before.png";
+import RoutineAftereImg from "../../assets/services/routine_after.png";
+
+import DeepBeforeImg from "../../assets/services/deep_before.png";
+import DeepAftereImg from "../../assets/services/deep_after.png";
+
+import ConstructionBeforeImg from "../../assets/services/construction_before.png";
+import ConstructionAftereImg from "../../assets/services/construction_after.png";
+
+import CorporateBeforeImg from "../../assets/services/corporate_before.png";
+import CorporateAftereImg from "../../assets/services/corporate_after.png";
+
+import DrycleaningBeforeImg from "../../assets/services/drycleaning_before.png";
+import DrycleaningAftereImg from "../../assets/services/drycleaning_after.png";
+
+import PressureBeforeImg from "../../assets/services/pressure_before.png";
+import PressureAftereImg from "../../assets/services/pressure_after.png";
+
+import FacadeBeforeImg from "../../assets/services/facade_before.png";
+import FacadeAftereImg from "../../assets/services/facade_after.png";
+
+import ChandelierBeforeImg from "../../assets/services/chandelier_before.png";
+import ChandelierAftereImg from "../../assets/services/chandelier_after.png";
+
+import WindowsBeforeImg from "../../assets/services/windows_before.png";
+import WindowsAftereImg from "../../assets/services/windows_after.png";
 
 const SERVICES_DATA = [
     {
         id: "routine",
-        imageBefore: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800",
+        imageBefore: RoutineBeforeImg,
+        imageAfter: RoutineAftereImg,
         checklist: ["dusting", "vacuuming", "mopping", "kitchen", "bathroom", "mirrors", "waste", "handles", "sills", "inspection"],
         addons: [],
     },
     {
         id: "deep",
-        imageBefore: "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800",
+        imageBefore: DeepBeforeImg,
+        imageAfter: DeepAftereImg,
         checklist: ["dusting", "furniture", "degreasing", "descaling", "skirting", "doors", "cabinets", "vents", "floors", "spots", "windows", "inspection"],
         addons: [],
     },
     {
         id: "construction",
-        imageBefore: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1628177142898-93e46e46503f?q=80&w=800",
+        imageBefore: ConstructionBeforeImg,
+        imageAfter: ConstructionAftereImg,
         checklist: ["extraction", "detailing", "paint", "residue", "windows", "cabinets", "fixtures", "tile", "doors", "exterior", "packaging", "handover"],
         addons: [],
     },
     {
         id: "corporate",
-        imageBefore: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=800",
+        imageBefore: CorporateBeforeImg,
+        imageAfter: CorporateAftereImg,
         checklist: ["desks", "furniture", "floors", "reception", "pantry", "washrooms", "disinfection", "glass", "waste", "common", "supply", "inspection"],
         addons: [],
     },
     {
         id: "drycleaning",
-        imageBefore: "https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=800",
+        imageBefore: DrycleaningBeforeImg,
+        imageAfter: DrycleaningAftereImg,
         checklist: ["assessment", "vacuuming", "pretreatment", "compound", "agitation", "spot", "odour", "allergen", "fibre", "finishing", "detailing", "inspection"],
         addons: [],
     },
     {
         id: "pressure",
-        imageBefore: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=800",
+        imageBefore: PressureBeforeImg,
+        imageAfter: PressureAftereImg,
         checklist: ["assessment", "debris", "pretreatment", "washing", "grout", "algae", "oil", "detailing", "sensitive", "rinsing", "protection", "inspection"],
         addons: [],
     },
     {
         id: "facade",
-        imageBefore: "https://images.unsplash.com/photo-1558317374-067fb5f30001?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=800",
+        imageBefore: FacadeBeforeImg,
+        imageAfter: FacadeAftereImg,
         checklist: ["assessment", "dust", "washing", "glass", "cladding", "stone", "marks", "ledge", "algae", "entrance", "protection", "inspection"],
         addons: [],
     },
     {
         id: "chandelier",
-        imageBefore: "https://images.unsplash.com/photo-1562916606-2cb3a6d71b3e?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?q=80&w=800",
+        imageBefore: ChandelierBeforeImg,
+        imageAfter: ChandelierAftereImg,
         checklist: ["assessment", "protection", "crystal", "metal", "detailing", "residue", "polishing", "bulbs", "alignment", "highlevel", "moisture", "inspection"],
         addons: [],
     },
     {
         id: "windows",
-        imageBefore: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=800",
-        imageAfter: "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800",
+        imageBefore: WindowsBeforeImg,
+        imageAfter: WindowsAftereImg,
         checklist: ["glass", "frames", "tracks", "fingerprints", "marks", "detailing", "doors", "skylights", "highlevel", "polishing", "protection", "inspection"],
         addons: [],
     },
