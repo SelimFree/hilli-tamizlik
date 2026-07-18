@@ -3,6 +3,7 @@ import { useDocumentTitle } from "../hooks/useDocumentTitle";
 import { MissionBlock } from "../components/blocks/MissionBlock";
 import { SecurityVettingBlock } from "../components/blocks/SecurityVettingBlock";
 import { EquipmentBlock } from "../components/blocks/EquipmentBlock";
+import { RecommendationsBlock } from "../components/blocks/RecommendationsBlock";
 
 export default function AboutPage() {
 
@@ -14,6 +15,7 @@ export default function AboutPage() {
             <MissionBlock />
             <SecurityVettingBlock />
             <EquipmentBlock />
+            <RecommendationsBlock />
         </div>
     );
 }

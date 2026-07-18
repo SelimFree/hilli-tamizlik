@@ -68,5 +68,31 @@
         "description": "Sanuzel matalarynyň hiç wagt aşhana ýa-da ýaşaýyş meýdançalaryna degmezligini üpjün edýän berk reňkli kodlanan ulgamlar."
       }
     }
+  },
+
+  "RecommendationsBlock": {
+    "badge": "Tassyklanan synlar",
+    "headingStart": "Bize ynanýan",
+    "headingAccent": "kärhanalar.",
+    "description": "Diňe biziň sözümize ynanmaň. Hemişelik korporatiw hyzmatdaşlarymyzdan gelen resmi maslahat hatlary bilen tanyşyň.",
+    "viewDocument": "PDF resminamany aç",
+    "items": {
+      "client1": {
+        "name": "Azatech",
+        "snippet": "Ofisleriň ygtybarly arassalanmagyny nygtaýar, işgärleriň jogapkärçiligine we gözegçiliksiz işlemek ukybyna ýokary baha berýär."
+      },
+      "client2": {
+        "name": "Rysgally Gün",
+        "snippet": "Toparyň ýokary guramaçylygyny, özbaşdaklygyny we ussatlygyny nygtap, ofisleriň yzygiderli arassalanýandygyny doly tassyklaýar."
+      },
+      "client3": {
+        "name": "Bereketli Horjun",
+        "snippet": "Kompaniýanyň jikme-jikliklere ünsüni we işi özbaşdak dolandyrmagyny belläp, ofisleri arassalamakda ygtybarly hyzmatdaş hasaplaýar."
+      },
+      "client4": {
+        "name": "Humanity Water",
+        "snippet": "Sanitariýa kadalarynyň berk berjaý edilişini we özbaşdak iş dolandyrylyşyny belläp, ofisleri arassalamak hyzmatlaryna baha berýär."
+      }
+    }
   }
 }

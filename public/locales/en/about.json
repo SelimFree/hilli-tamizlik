@@ -68,5 +68,31 @@
         "description": "Strict color-coded fiber systems ensuring bathroom textiles never touch kitchen or living space surfaces."
       }
     }
+  },
+
+  "RecommendationsBlock": {
+    "badge": "Verified Reviews",
+    "headingStart": "Trusted by",
+    "headingAccent": "industry leaders.",
+    "description": "Don't just take our word for it. Read the official recommendation letters from our long-term corporate partners.",
+    "viewDocument": "View PDF Document",
+    "items": {
+      "client1": {
+        "name": "Azatech",
+        "snippet": "Highlights reliable, continuous office maintenance, praising the staff's responsibility and ability to work without extra supervision."
+      },
+      "client2": {
+        "name": "Rysgally Gün",
+        "snippet": "Confirms continuous professional office cleaning, highlighting the team's high organization, autonomy, and excellent professionalism."
+      },
+      "client3": {
+        "name": "Bereketli Horjun",
+        "snippet": "Recommends the company as a reliable partner for regular office maintenance, noting their attention to detail and autonomous management."
+      },
+      "client4": {
+        "name": "Humanity Water",
+        "snippet": "Appreciates the continuous office cleaning services, noting strict compliance with sanitary standards and independent process management."
+      }
+    }
   }
 }
