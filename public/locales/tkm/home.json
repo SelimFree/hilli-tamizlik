@@ -53,50 +53,77 @@
   },
 
   "CalculatorBlock": {
-    "badge": "Dessine hasaplama",
+    "badge": "Deslapky hasaplaýyş",
     "headingStart": "Aýdyň bahalar.",
-    "headingAccent": "Gizlin tölegsiz.",
-    "step1Title": "1. Emlägiň meýdany",
+    "headingAccent": "Gizlin tölegler ýok.",
+    "step1Title": "1. Hyzmatlary saýlaň",
+    "step2Title": "2. Giňişleýin maglumatlar",
     "rangeMin": "20 m²",
-    "rangeMax": "300+ m²",
-    "step2Title": "2. Tämizligiň derejesi",
-    "step3Title": "3. Goşmaça hyzmatlar",
-    "sidebarTitle": "Siziň hasaplamanyz",
-    "summaryBase": "Esasy tämizlik",
-    "summaryExtras": "Goşmaçalar",
-    "estimatedTotal": "Çak edilýän jemi",
-    "disclaimer": "*Bu ortaça şertlere esaslanýan çaklama bahadyr. Gutarnykly baha iş başlamazdan ozal tassyklanýar.",
+    "rangeMax": "500+ m²",
+    "sidebarTitle": "Siziň hasabyňyz",
+    "summaryArea": "Meýdana görä hyzmatlar",
+    "summaryItems": "Aýratyn zatlar we mebeller",
+    "estimatedTotal": "Takmynan jemi",
+    "disclaimer": "*Bu takmynan hasaplamadyr. 'Ylalaşyk boýunça' hyzmatlar (meselem, Ofisler ýa-da Aýnalar) bu jemine girizilmeýär. Ahyrky baha işe başlamazdan öň tassyklanýar.",
     "ctaWhatsApp": "WhatsApp arkaly sargyt etmek",
+    "ctaWhatsAppShort": "Häzir sargyt et",
+    "priceByAgreement": "Ylalaşyk boýunça",
     "none": "Ýok",
-    "msgGreet": "  Salam Hilli Tämizlik! 👋",
-    "msgIntro": "Men saýtyňyzdaky kalkulýatory ulandym we sargyt etmek isleýärin:",
-    "msgService": "Hyzmat",
-    "msgSize": "Meýdany",
-    "msgAddons": "Goşmaçalar",
-    "msgTotal": "Çak edilýän jemi",
-    "msgOutro": "Şu wagt mümkinmi?",
+    "msgGreet": "Salam Hilli Tämizlik!",
+    "msgIntro": "Men saýtyňyzdaky hasaplaýjyny ulandym we sargyt etmek isleýärin:",
+    "msgServices": "Saýlanan hyzmatlar",
+    "msgDetails": "Giňişleýin maglumatlar we mukdary",
+    "msgTotal": "Takmynan jemi",
+    "msgOutro": "Sargyt edip bolýarmy?",
     "services": {
-      "standard": {
-        "label": "Adaty ideg",
-        "desc": "Ýeňil tozan süpürmek, tozan sorujy we üstleri ýuvmak."
+      "routine": {
+        "label": "Gündelik / Goldaw arassalaýyş",
+        "desc": "Standart çygly arassalaýyş"
       },
       "deep": {
-        "label": "Ýokary derejeli çuňňur tämizlik",
-        "desc": "Jikme-jik arassalamak, plintuslar we gizlin tozan gatlaklary."
+        "label": "Doly (General) arassalaýyş",
+        "desc": "Jikme-jik we doly arassalaýyş"
       },
       "construction": {
-        "label": "Gurluşykdan soňky tämizlik",
-        "desc": "Inçe tozanlaryň, boýaglaryň we galyndylaryň senagat taýdan aýrylmagy."
+        "label": "Bejergiden (remontdan) soňky",
+        "desc": "Gurluşykdan soňky arassalaýyş"
+      },
+      "offices": {
+        "label": "Ofisler we korporasiýalar",
+        "desc": "Ýöriteleşdirilen arassalaýyş meýilnamalary"
+      },
+      "dry_cleaning": {
+        "label": "Himiýaly arassalaýyş (Himçistka)",
+        "desc": "Mebeller we halylar"
+      },
+      "pressure_washing": {
+        "label": "Howly ýuwmak",
+        "desc": "Howlular, granit, kafel"
+      },
+      "facade": {
+        "label": "Fasadlary ýuwmak",
+        "desc": "Binalaryň we öýleriň daşyny ýuwmak"
+      },
+      "chandelier": {
+        "label": "Lýustralary ýuwmak",
+        "desc": "Dürli ölçegler we kynçylyklar"
+      },
+      "window": {
+        "label": "Aýnalary ýuwmak",
+        "desc": "Ölçegine we kynçylygyna baglylykda"
       }
     },
-    "addons": {
-      "fridge": { "label": "Holodilnik içi" },
-      "oven": { "label": "Duhowka içi" },
-      "windows": { "label": "Içki äpişgeler" },
-      "balcony": { "label": "Balkon tämizligi" },
-      "carpet": { "label": "Halylary çuňňur ýuvmak" },
-      "mattress": { "label": "Matras dezinfeksiýasy" },
-      "cabinets": { "label": "Şkaflaryň içi" }
+    "items": {
+      "propertySqm": "Jaýyň / meýdanyň ölçegi",
+      "carpet": "Haly ýuwmak",
+      "sofa2": "2 orunlyk diwan",
+      "sofa3": "3 orunlyk diwan",
+      "sofa_set": "Mebel toplumy (3+2+1)",
+      "mattress_big": "Uly matras",
+      "mattress_small": "Kiçi / Çaga matrasy",
+      "chand_small": "Kiçi lýustra",
+      "chand_med": "Orta lýustra",
+      "chand_large": "Uly lýustra"
     }
   }
 }

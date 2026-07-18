@@ -56,47 +56,74 @@
     "badge": "Instant Estimate",
     "headingStart": "Transparent pricing.",
     "headingAccent": "No hidden fees.",
-    "step1Title": "1. Property Size",
+    "step1Title": "1. Select Services",
+    "step2Title": "2. Specify Details",
     "rangeMin": "20 m²",
-    "rangeMax": "300+ m²",
-    "step2Title": "2. Cleaning Level",
-    "step3Title": "3. Extra Services",
+    "rangeMax": "500+ m²",
     "sidebarTitle": "Your Estimate",
-    "summaryBase": "Base Clean",
-    "summaryExtras": "Extras",
+    "summaryArea": "Area-Based Services",
+    "summaryItems": "Specific Items & Furniture",
     "estimatedTotal": "Estimated Total",
-    "disclaimer": "*This is an approximate estimate based on average conditions. Final price is confirmed before work begins.",
+    "disclaimer": "*This is an approximate estimate. Services requiring 'agreement' (like Offices or Windows) are not calculated in this total. Final price is confirmed before work begins.",
     "ctaWhatsApp": "Book via WhatsApp",
+    "ctaWhatsAppShort": "Book Now",
+    "priceByAgreement": "By Agreement",
     "none": "None",
-    "msgGreet": "  Hello Hilli Tämizlik! 👋",
+    "msgGreet": "Hello Hilli Tämizlik!",
     "msgIntro": "I used your website calculator and would like to request a booking:",
-    "msgService": "Service",
-    "msgSize": "Size",
-    "msgAddons": "Add-ons",
+    "msgServices": "Selected Services",
+    "msgDetails": "Details & Quantities",
     "msgTotal": "Estimated Total",
     "msgOutro": "Is this available?",
     "services": {
-      "standard": {
-        "label": "Standard Maintenance",
-        "desc": "Light dusting, vacuuming, and surface mopping."
+      "routine": {
+        "label": "Routine / Maintenance",
+        "desc": "Standard cleaning"
       },
       "deep": {
-        "label": "Premium Deep Clean",
-        "desc": "Detailed scrubbing, baseboards, and hidden dust vectors."
+        "label": "Deep Cleaning",
+        "desc": "Thorough and detailed"
       },
       "construction": {
         "label": "Post-Construction",
-        "desc": "Industrial removal of fine dust, paint, and residues."
+        "desc": "After renovation cleaning"
+      },
+      "offices": {
+        "label": "Offices & Corporate",
+        "desc": "Customized cleaning plans"
+      },
+      "dry_cleaning": {
+        "label": "Dry Cleaning",
+        "desc": "Furniture and carpets"
+      },
+      "pressure_washing": {
+        "label": "Pressure Washing",
+        "desc": "Yards, granite, tiles"
+      },
+      "facade": {
+        "label": "Facade Cleaning",
+        "desc": "Building exterior wash"
+      },
+      "chandelier": {
+        "label": "Chandelier Cleaning",
+        "desc": "All sizes and complexities"
+      },
+      "window": {
+        "label": "Window Cleaning",
+        "desc": "For all window sizes"
       }
     },
-    "addons": {
-      "fridge": { "label": "Inside Fridge" },
-      "oven": { "label": "Inside Oven" },
-      "windows": { "label": "Interior Windows" },
-      "balcony": { "label": "Balcony Cleaning" },
-      "carpet": { "label": "Deep Carpet Wash" },
-      "mattress": { "label": "Mattress Sanitization" },
-      "cabinets": { "label": "Inside Cabinets" }
+    "items": {
+      "propertySqm": "Property Size",
+      "carpet": "Carpet Washing",
+      "sofa2": "2-Seater Sofa",
+      "sofa3": "3-Seater Sofa",
+      "sofa_set": "Sofa Set (3+2+1)",
+      "mattress_big": "Large Mattress",
+      "mattress_small": "Small / Kids Mattress",
+      "chand_small": "Small Chandelier",
+      "chand_med": "Medium Chandelier",
+      "chand_large": "Large Chandelier"
     }
   }
 }
