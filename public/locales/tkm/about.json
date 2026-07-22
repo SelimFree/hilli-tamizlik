@@ -92,6 +92,10 @@
       "client4": {
         "name": "Humanity Water",
         "snippet": "Sanitariýa kadalarynyň berk berjaý edilişini we özbaşdak iş dolandyrylyşyny belläp, ofisleri arassalamak hyzmatlaryna baha berýär."
+      },
+      "client5": {
+        "name": "Arkach Söwda Merkezi",
+        "snippet": "3000 kw.m. gowrak söwda meýdançalarynyň ýokary hilli toplumlaýyn arassalanyşyny öwüp, iri göwrümli taslamalar üçin maslahat berýär."
       }
     }
   }
