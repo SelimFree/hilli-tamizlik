@@ -1,0 +1,44 @@
+{
+  "navbar": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "cookie": "Çerez Politikası"
+  },
+
+  "footer": {
+    "quickLinks": "Hızlı Bağlantılar",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları",
+    "cookie": "Çerez Politikası",
+    "slogan": "Sıfır gizli ücret, net fiyatlandırma ve kusursuz uygulama ile öngörülemeyen mülk bakımının yarattığı zorlukları ortadan kaldırıyoruz.",
+    "rights": "© {{year}} {{company}}. Tüm hakları saklıdır."
+  },
+
+  "cookieBanner": {
+    "title": "Çerez Politikası",
+    "body": "Trafiği analiz etmek ve deneyiminizi optimize etmek için çerezler kullanıyoruz. \"Kabul Et\" butonuna tıklayarak çerez kullanımımızı kabul etmiş olursunuz.",
+    "accept": "Kabul Et",
+    "more": "Daha Fazla Bilgi"
+  },
+
+  "notFoundPage": {
+    "title": "404",
+    "subtitle": "Sayfa bulunamadı",
+    "body": "Üzgünüz, aradığınız sayfayı bulamadık.\n Taşınmış veya silinmiş olabilir.",
+    "returnBtn": "Ana Sayfaya Dön"
+  },
+
+  "errorPage": {
+    "title": "Bir şeyler ters gitti",
+    "subtitle": "Bizim tarafımızda beklenmedik bir hata oluştu. Lütfen sayfayı yenilemeyi deneyin veya sorun devam ederse destek ekibiyle iletişime geçin.",
+    "refreshBtn": "Sayfayı Yenile"
+  },
+
+  "loading": {
+    "message": "Yükleniyor"
+  }
+}

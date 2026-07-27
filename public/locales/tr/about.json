@@ -1,0 +1,102 @@
+{
+  "MissionBlock": {
+    "badge": "Felsefemiz",
+    "titleStart": "Profesyonel hassasiyetin",
+    "titleAccent": "tavizsiz özenle buluştuğu yer.",
+    "descriptionPart1": "Hilli Tämizlik tek ve net bir farkındalık üzerine kuruldu: gerçek temizlik, yüzeysel ve aceleci bir yaklaşımla elde edilemez. Dilimizde, ",
+    "qualityHighlight": "\"Hilli\" Kalite demektir",
+    "descriptionPart2": " ve biz bu tanımı sıradan bir slogandan ziyade mimari bir temel olarak görüyoruz.",
+    "description2": "Öngörülemeyen programlar, tutarsız sonuçlar ve sert, zehirli kimyasallarla boğuşan bir sektör gözlemledik. Biz farklı bir yol seçtik. Endüstriyel sınıf ekstraksiyon mühendisliğini, titizlikle denetlenen konaklama ve hizmet profesyonelleriyle birleştirerek, konut ve ticari mülkleri tertemiz, derinlemesine sterilize edilmiş ortamlara dönüştürüyoruz.",
+    "ctaButton": "Standartlarımızı Keşfedin",
+    "imageAlt": "Premium sterilize edilmiş yaşam alanı",
+    "metricLabel": "Operasyonel Metrik",
+    "metricValue": "%100 Doğrulanmış Kalite Standartları"
+  },
+
+  "SecurityVettingBlock": {
+    "badge": "Güvenlik Prosedürü",
+    "headingStart": "En katı standartlarımız",
+    "headingAccent": "göremediklerinizdir.",
+    "steps": {
+      "screening": {
+        "title": "Titiz Özgeçmiş Taraması",
+        "subtitle": "Kimlik ve Güven Doğrulaması",
+        "description": "Her bir profesyonel, üniformamızı giymeden önce çok seviyeli kimlik doğrulaması, adli sicil taraması ve kapsamlı kişisel referans kontrolünden geçer."
+      },
+      "academy": {
+        "title": "Hilli Tämizlik'te Profesyonel Eğitim",
+        "subtitle": "Uygulamalı Uzmanlık",
+        "description": "Doğrulanmamış serbest çalışanları işe almıyoruz. Tüm ekip üyeleri, premium yüzey yönetimi, gelişmiş kumaş ekstraksiyon mekaniği ve kimyasal güvenlik konularında 40 saatlik pratik eğitimden geçer."
+      },
+      "insurance": {
+        "title": "Kapsamlı Sorumluluk Sigortası",
+        "subtitle": "Kurumsal Sorumluluk",
+        "description": "Tam bir iç rahatlığı. Operasyonlarımız, değerli sanat eserlerinizin, mimari yüzeylerinizin ve mülkünüzün tamamen korunmasını sağlayan kapsamlı bir sorumluluk sigortası ile güvence altına alınmıştır."
+      }
+    }
+  },
+
+  "EquipmentBlock": {
+    "badge": "Donanımımız",
+    "headingStart": "Endüstriyel güç.",
+    "headingAccent": "Botanik güvenlik.",
+    "description": "Alanınızın sadece görsel olarak lekesiz değil, aynı zamanda biyolojik olarak da sterilize edilmesini sağlamak için en son Avrupa ekstraksiyon makinelerine, termal sterilizasyona ve çevreye duyarlı kimyasallara büyük yatırımlar yapıyoruz.",
+    "pillars": {
+      "machinery": {
+        "title": "Profesyonel Ekstraksiyon",
+        "subtitle": "Endüstriyel Makineler",
+        "description": "Gömülü kir ve alerjenleri en derin kumaş katmanlarından çeken püskürtme-emme teknolojisi."
+      },
+      "chemistry": {
+        "title": "Yeşil Kimya",
+        "subtitle": "%100 Toksik Olmayan",
+        "description": "Çocuklar, evcil hayvanlar ve hassas mimari yüzeyler için güvenli, doğada çözünebilen, hastane sınıfı temizlik maddeleri."
+      },
+      "air-quality": {
+        "title": "HEPA Arındırma",
+        "subtitle": "Aktif Hava Temizleme",
+        "description": "Biz temizlik yaparken mikro partiküllerin %99,97'sini aktif olarak yakalayan sertifikalı HEPA filtreleme sistemleri."
+      },
+      "steam": {
+        "title": "Termal Sterilizasyon",
+        "subtitle": "200°C Kuru Buhar",
+        "description": "Bakterileri anında yok eden ve sertleşmiş yağları kimyasal kullanmadan çözen yüksek basınçlı kuru buhar uygulaması."
+      },
+      "microfiber": {
+        "title": "Bölgesel Mikrofiber",
+        "subtitle": "Sıfır Çapraz Bulaşma",
+        "description": "Banyo tekstillerinin mutfak veya yaşam alanı yüzeylerine asla temas etmemesini sağlayan sıkı renk kodlu fiber sistemleri."
+      }
+    }
+  },
+
+  "RecommendationsBlock": {
+    "badge": "Doğrulanmış İncelemeler",
+    "headingStart": "Sektör liderlerinin",
+    "headingAccent": "güvendiği marka.",
+    "description": "Sadece bizim sözümüze güvenmeyin. Uzun vadeli kurumsal ortaklarımızdan gelen resmi tavsiye mektuplarını okuyun.",
+    "viewDocument": "PDF Belgesini Görüntüle",
+    "items": {
+      "client1": {
+        "name": "Azatech",
+        "snippet": "Ofislerin güvenilir ve sürekli bakımını vurguluyor, personelin sorumluluk bilincini ve ekstra denetime gerek duymadan çalışma yeteneğini övüyor."
+      },
+      "client2": {
+        "name": "Rysgally Gün",
+        "snippet": "Ekibin yüksek organizasyon becerisini, özerkliğini ve mükemmel profesyonelliğini vurgulayarak sürekli profesyonel ofis temizliğini onaylıyor."
+      },
+      "client3": {
+        "name": "Bereketli Horjun",
+        "snippet": "Detaylara gösterdikleri özeni ve özerk yönetimlerini belirterek şirketi düzenli ofis bakımı için güvenilir bir ortak olarak tavsiye ediyor."
+      },
+      "client4": {
+        "name": "Humanity Water",
+        "snippet": "Sıhhi standartlara sıkı uyumlarını ve bağımsız süreç yönetimlerini belirterek sürekli ofis temizliği hizmetlerini takdir ediyor."
+      },
+      "client5": {
+        "name": "Arkach Alışveriş Merkezi",
+        "snippet": "3.000 metrekareyi aşan perakende alanlarının yüksek kaliteli ve kapsamlı temizliğini överek büyük ölçekli projeler için şiddetle tavsiye ediyor."
+      }
+    }
+  }
+}

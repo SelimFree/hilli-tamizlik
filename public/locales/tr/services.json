@@ -1,0 +1,229 @@
+{
+  "ServiceManifestoBlock": {
+    "badge": "Hizmetlerimiz",
+    "inclusionsTitle": "Standart İçerikler",
+    "before": "Öncesi",
+    "after": "Sonrası",
+    "services": {
+      "routine": {
+        "label": "Rutin / Periyodik Bakım",
+        "title": "Sürekli temiz bir ortam için düzenli bakım.",
+        "description": "Konut ve ticari alanları hafta boyunca ferah, hijyenik ve prezentabl tutan planlı bakım temizliği sağlıyoruz. Eğitimli ekibimiz, mülkünüze, programınıza ve yoğun kullanım alanlarına göre uyarlanmış ayrıntılı bir temizlik planı izler.",
+        "imageBeforeAlt": "Hafif yüzey tozu gösteren rutin bakım öncesi durum",
+        "imageAfterAlt": "Ferah ve temiz bir ortamı gösteren rutin bakım sonrası durum",
+        "checklist": {
+          "dusting": "Mobilyaların ve erişilebilir yüzeylerin tozunun alınması",
+          "vacuuming": "Halı, kilim ve döşemelerin vakumlanması",
+          "mopping": "Sert zeminlerin süpürülmesi ve paspaslanması",
+          "kitchen": "Mutfak yüzeyleri ve beyaz eşyaların dış temizliği",
+          "bathroom": "Banyo temizliği ve dezenfeksiyonu",
+          "mirrors": "Ayna ve cam yüzeylerin parlatılması",
+          "waste": "Çöplerin toplanması ve çöp torbalarının değiştirilmesi",
+          "handles": "Kapı kolları ve sık temas edilen noktaların dezenfeksiyonu",
+          "sills": "İç pencere pervazlarının temizliği",
+          "inspection": "Son kontrol ve alanın sunumu"
+        },
+        "addons": {}
+      },
+      "deep": {
+        "label": "Derinlemesine Temizlik",
+        "title": "Görünen yüzeyin ötesinde yoğun temizlik.",
+        "description": "Derinlemesine temizlik hizmetimiz mülk genelinde birikmiş kir, yağ, kireç, toz ve gizli kalıntıları hedefler. Gözden kaçan alanları, detaylı armatürleri ve ulaşılması zor yerleri temizleyerek ortamı belirgin şekilde daha ferah ve hijyenik hale getiriyoruz.",
+        "imageBeforeAlt": "Gizli kalıntıları ve birikmiş kiri gösteren derinlemesine temizlik öncesi",
+        "imageAfterAlt": "Tamamen yenilenmiş temiz mülkü gösteren derinlemesine temizlik sonrası",
+        "checklist": {
+          "dusting": "Detaylı yüzey ve mobilya tozu alımı",
+          "furniture": "Mobilya arkası ve altı temizliği",
+          "degreasing": "Yoğun mutfak yağ çözme işlemi",
+          "descaling": "Banyo kireç çözme ve dezenfeksiyon işlemi",
+          "skirting": "Süpürgelik ve köşe detay temizliği",
+          "doors": "Kapı, pervaz ve kapı kolu temizliği",
+          "cabinets": "Dolap ve çekmece içi temizliği",
+          "vents": "Havalandırma, ızgara ve erişilebilir armatür tozu alımı",
+          "floors": "Zemin fırçalama ve kenar temizliği",
+          "spots": "Leke ve kalıntı bölge tedavisi",
+          "windows": "İç pencere ve cam temizliği",
+          "inspection": "Son hijyen ve kalite kontrolü"
+        },
+        "addons": {}
+      },
+      "construction": {
+        "label": "İnşaat Sonrası / Tadilat Temizliği",
+        "title": "İnşaat tozu ve kalıntılarının hassas bir şekilde temizlenmesi.",
+        "description": "Yeni inşa edilmiş veya yenilenmiş alanları temiz, güvenli ve kullanıma hazır ortamlara dönüştürüyoruz. Ekibimiz; ince inşaat tozunu, boya izlerini, yapışkan kalıntılarını, ambalaj atıklarını ve yüzey kirliliğini yeni monte edilen yüzeylere zarar vermeden temizler.",
+        "imageBeforeAlt": "İnce toz, ambalaj ve kalıntıları gösteren inşaat sonrası durum",
+        "imageAfterAlt": "Kullanıma hazır, anahtar teslim inşaat sonrası sunum",
+        "checklist": {
+          "extraction": "İnce inşaat tozunun çekilmesi",
+          "detailing": "Zemin, duvar ve süpürgelik detay temizliği",
+          "paint": "Boya ve alçı lekesi çıkarma",
+          "residue": "Yapışkan, silikon ve etiket kalıntısı temizliği",
+          "windows": "Pencere, çerçeve ve ray temizliği",
+          "cabinets": "Dolap ve gardırop içi temizliği",
+          "fixtures": "Armatür, tesisat ve hırdavat parlatma",
+          "tile": "Fayans ve derz kalıntısı temizliği",
+          "doors": "Kapı ve çerçeve detay temizliği",
+          "exterior": "Balkon ve dış erişim alanı temizliği",
+          "packaging": "Ambalaj ve hafif atıkların toplanması",
+          "handover": "Son teslimat kontrolü"
+        },
+        "addons": {}
+      },
+      "corporate": {
+        "label": "Ofisler ve Kurumsal Temizlik",
+        "title": "Verimli iş yerleri için profesyonel temizlik.",
+        "description": "İşletmenizin standartlarını yansıtan temiz, düzenli ve hijyenik çalışma ortamları sağlıyoruz. Hizmetler çalışma saatlerinden önce, sırasında veya sonrasında, her boyuttaki ofise özel programlarla düzenlenebilir.",
+        "imageBeforeAlt": "Temizlenmemiş ofis düzeni ve çalışma masası",
+        "imageAfterAlt": "Tertemiz profesyonel kurumsal ortam düzeni",
+        "checklist": {
+          "desks": "Masa ve çalışma alanı yüzey temizliği",
+          "furniture": "Ofis mobilyalarının tozunun alınması",
+          "floors": "Halı vakumlama ve sert zemin bakımı",
+          "reception": "Toplantı odası ve resepsiyon temizliği",
+          "pantry": "Mutfak ve ortak yemek alanı temizliği",
+          "washrooms": "Lavabo temizliği ve dezenfeksiyonu",
+          "disinfection": "Sık temas edilen noktaların dezenfeksiyonu",
+          "glass": "İç cam bölmelerin temizliği",
+          "waste": "Çöp toplama ve çöp kutusu yönetimi",
+          "common": "Asansör, koridor ve ortak alan temizliği",
+          "supply": "Talep üzerine sarf malzeme takibi",
+          "inspection": "Planlı kalite kontrol denetimleri"
+        },
+        "addons": {}
+      },
+      "drycleaning": {
+        "label": "Kuru Temizleme",
+        "title": "Hassas tekstiller için düşük nemli işlem.",
+        "description": "Profesyonel kuru temizleme işlemimiz neme duyarlı halıları, kilimleri, döşemeleri, perdeleri ve kumaş yüzeyleri aşırı doyurmadan tazeler. Özel temizleme bileşenleri hassas lifleri ve dokuları korurken yüzey yağlarını, tozu, kokuları ve bölgesel lekeleri gidermeye yardımcı olur.",
+        "imageBeforeAlt": "Toz ve leke işlemiş hassas tekstiller",
+        "imageAfterAlt": "Tazelenmiş ve hizalanmış kusursuz tekstil kumaşı",
+        "checklist": {
+          "assessment": "Detaylı tekstil durumu değerlendirmesi",
+          "vacuuming": "Endüstriyel kuru vakumlama",
+          "pretreatment": "Hedefli leke ön işlemi",
+          "compound": "Düşük nemli temizlik bileşeni uygulaması",
+          "agitation": "Kontrollü mekanik lif fırçalama",
+          "spot": "Kumaş dostu leke temizliği",
+          "odour": "Koku nötralizasyon işlemi",
+          "allergen": "Alerjen ve serbest kepek çekimi",
+          "fibre": "Lif ve tüy yönlendirmesi",
+          "finishing": "Hızlı, düşük nemli bitirme işlemi",
+          "detailing": "Kenar, köşe ve kıvrım detay temizliği",
+          "inspection": "Son tekstil kontrolü"
+        },
+        "addons": {}
+      },
+      "pressure": {
+        "label": "Basınçlı Yıkama",
+        "title": "Dayanıklı taş ve fayans yüzeyler için yüksek basınçlı restorasyon.",
+        "description": "Granit plakalar, parke taşları, seramik karolar ve mermerden yerleşmiş kiri, atmosferik kalıntıları, yosunları, lekeleri ve yüzey birikimlerini temizliyoruz. Basınç seviyeleri ve temizlik yöntemleri, her bir yüzeyin malzemesine ve durumuna göre dikkatlice ayarlanır.",
+        "imageBeforeAlt": "Yosun ve atmosferik birikime sahip taş yüzey",
+        "imageAfterAlt": "Restore edilmiş kusursuz parke taşı yüzeyi",
+        "checklist": {
+          "assessment": "Yüzey durumu ve malzeme değerlendirmesi",
+          "debris": "Serbest döküntü ve toz temizliği",
+          "pretreatment": "Hedefli leke ön işlemi",
+          "washing": "Kontrollü basınçlı yıkama",
+          "grout": "Derz ve bağlantı çizgisi temizliği",
+          "algae": "Yosun ve organik birikim temizliği",
+          "oil": "Yağ ve trafik izi tedavisi",
+          "detailing": "Kenar ve köşe detay temizliği",
+          "sensitive": "Hassas taşlar için düşük basınçlı işlem",
+          "rinsing": "Yüzey durulama ve kalıntı temizliği",
+          "protection": "Çevre alan koruması",
+          "inspection": "Son temizlik kontrolü"
+        },
+        "addons": {}
+      },
+      "facade": {
+        "label": "Dış Cephe Temizliği",
+        "title": "Zemin seviyesinden yükseğe kadar profesyonel dış cephe bakımı.",
+        "description": "Toz, kirlilik, su izleri, organik birikimler ve hava koşullarına bağlı lekeleri temizleyerek bina dış cephelerinin görünümünü yeniliyoruz. Ekibimiz cam, taş, metal, kaplama, sıva ve diğer dış cephe malzemeleri için uygun ekipman ve yöntemleri seçer.",
+        "imageBeforeAlt": "Hava lekeleri ve kirlilik izleri olan bina dış cephesi",
+        "imageAfterAlt": "Restore edilmiş temiz bina dış cephesi",
+        "checklist": {
+          "assessment": "Dış yüzey durumu değerlendirmesi",
+          "dust": "Toz ve atmosferik kalıntı temizliği",
+          "washing": "Cephe yıkama ve kontrollü durulama",
+          "glass": "Cam ve dış pencere temizliği",
+          "cladding": "Kaplama ve panel temizliği",
+          "stone": "Taş ve sıvalı yüzey işlemi",
+          "marks": "Su izi ve kirlilik lekesi tedavisi",
+          "ledge": "Çıkıntı, çerçeve ve mimari detay temizliği",
+          "algae": "Yosun ve organik birikim temizliği",
+          "entrance": "Zemin kat giriş detay temizliği",
+          "protection": "Çevre alan koruması",
+          "inspection": "Son dış cephe kontrolü"
+        },
+        "addons": {}
+      },
+      "chandelier": {
+        "label": "Avize Temizliği",
+        "title": "Her tür ve boyuttaki avizeler için detaylı bakım.",
+        "description": "Hassas kristalleri, cam parçaları, metal çerçeveleri, dekoratif unsurları ve elektrikli bileşenleri koruyarak avizeleri hassasiyetle temizliyoruz. Her bir aydınlatma armatürü ayrı ayrı değerlendirilir ve malzemesine, boyutuna ve montaj yüksekliğine uygun kontrollü yöntemler kullanılarak temizlenir.",
+        "imageBeforeAlt": "Tozlu kristalleri ve mat metal çerçevesi olan avize",
+        "imageAfterAlt": "Parlatılmış kristalleri ve hizalanmış yapısıyla parlak avize",
+        "checklist": {
+          "assessment": "Armatür durumu ve erişim değerlendirmesi",
+          "protection": "Çevre mobilya ve zemin koruması",
+          "crystal": "Bireysel kristal ve cam temizliği",
+          "metal": "Çerçeve ve dekoratif metal toz alımı",
+          "detailing": "Kol, zincir ve bağlantı parça detayı",
+          "residue": "Parmak izleri ve kalıntıların güvenli temizliği",
+          "polishing": "Aşındırıcı olmayan parlatma",
+          "bulbs": "Erişilebilir durumlarda ampul dış temizliği",
+          "alignment": "Kristal hizalama ve sunum",
+          "highlevel": "Gerektiğinde yüksek erişim ekipmanı kullanımı",
+          "moisture": "Kontrollü nem uygulaması",
+          "inspection": "Son aydınlatma ve görünüm kontrolü"
+        },
+        "addons": {}
+      },
+      "windows": {
+        "label": "Cam Temizliği",
+        "title": "Her tür ve boyuttaki pencereler için iz bırakmayan berraklık.",
+        "description": "Konut, ticari, iç, dış, yüksek seviyeli ve özel pencere sistemlerini profesyonelce temizliyoruz. Yöntemlerimiz cam, çerçeve, fitil ve çevredeki yüzeyleri korurken toz, parmak izi, su izleri, kirlilik ve çevresel kalıntıları temizler.",
+        "imageBeforeAlt": "Parmak izi ve su lekeleri olan pencere camı",
+        "imageAfterAlt": "Kristal berraklığında iz bırakmayan pencere camı",
+        "checklist": {
+          "glass": "İç ve dış cam temizliği",
+          "frames": "Çerçeve ve pervaz detay temizliği",
+          "tracks": "Pencere rayı ve oluk temizliği",
+          "fingerprints": "Parmak izi ve yağ temizliği",
+          "marks": "Su izi ve mineral kalıntı tedavisi",
+          "detailing": "Kenar ve köşe detay temizliği",
+          "doors": "Cam kapı ve bölme temizliği",
+          "skylights": "Erişilebilir durumlarda tavan penceresi temizliği",
+          "highlevel": "Gerektiğinde yüksek seviyeli cam temizliği",
+          "polishing": "Aşındırıcı olmayan cam parlatma",
+          "protection": "Çevre yüzey koruması",
+          "inspection": "Son iz ve berraklık kontrolü"
+        },
+        "addons": {}
+      }
+    }
+  },
+  "ProcessGuidelineBlock": {
+    "badge": "Nasıl Çalışır",
+    "headingStart": "Sıfır zorluk.",
+    "headingAccent": "Mutlak hassasiyet.",
+    "stepPrefix": "ADIM",
+    "ctaTitle": "Alanınızı yenilemeye hazır mısınız?",
+    "ctaDescription": "Uzun e-posta trafiğini atlayın. Kendi paketinizi oluşturmak ve öncelikli rezervasyonunuzu anında güvence altına almak için interaktif hesaplayıcımızı kullanın.",
+    "ctaButton": "Anında Fiyat Tahmini",
+    "steps": {
+      "step-1": {
+        "title": "Anında Fiyat Tahmini",
+        "description": "Tam metrekarenize ve gerekli hizmet seviyesine göre anında fiyat teklifi almak için şeffaf hesaplayıcımızı kullanın."
+      },
+      "step-2": {
+        "title": "Koordine Et ve Onayla",
+        "description": "Programınıza uygun bir tarih seçin. Operasyon ekibimiz ayrıntıları doğrulayacak ve güvenilir profesyonellerimizi yönlendirecektir."
+      },
+      "step-3": {
+        "title": "Kusursuz Uygulama",
+        "description": "Alanınızı ilk günkü durumuna getirmek için endüstriyel makinelerimiz ve bitkisel solüsyonlarımızla tam donanımlı olarak geliyoruz."
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "custom": {
+    "lastUpdatedLabel": "Son Güncelleme: "
+  },
+  "privacyPolicy": {
+    "title": "Gizlilik Politikası",
+    "lastUpdated": "10 Nisan 2026",
+    "section1": {
+      "title": "1. Giriş",
+      "text": "At {{company}} olarak gizliliğinize saygı duyuyor ve kişisel verilerinizi korumaya kararlıyız. Bu gizlilik politikası, web sitemizi ziyaret ettiğinizde kişisel verilerinize nasıl baktığımız konusunda sizi bilgilendirecektir."
+    },
+    "section2": {
+      "title": "2. Topladığımız Veriler",
+      "text": "Sizinle ilgili farklı türlerdeki kişisel verileri toplayabilir, kullanabilir, saklayabilir ve aktarabiliriz; bunları şu şekilde gruplandırdık:",
+      "dataList": [
+        {
+          "label": "Kimlik Verileri:",
+          "desc": "Ad, soyad ve unvanı içerir."
+        },
+        {
+          "label": "İletişim Verileri:",
+          "desc": "E-posta adresi ve telefon numaralarını içerir."
+        },
+        {
+          "label": "Teknik Veriler:",
+          "desc": "IP adresi, tarayıcı türü ve saat dilimi ayarını içerir."
+        },
+        {
+          "label": "Kullanım Verileri:",
+          "desc": "Web sitemizi nasıl kullandığınıza dair bilgileri içerir."
+        }
+      ]
+    },
+    "section3": {
+      "title": "3. Veri Güvenliği",
+      "text": "Kişisel verilerinizin yanlışlıkla kaybolmasını, izinsiz bir şekilde kullanılmasını veya bunlara erişilmesini önlemek için uygun güvenlik önlemlerini aldık."
+    }
+  },
+  "termsOfService": {
+    "title": "Hizmet Şartları",
+    "lastUpdated": "10 Nisan 2026",
+    "section1": {
+      "title": "1. Şartların Kabulü",
+      "text": "{{company}} web sitesine erişerek veya kullanarak, bu Hizmet Şartlarına ve yürürlükteki tüm yasa ve düzenlemelere tabi olmayı kabul edersiniz."
+    },
+    "section2": {
+      "title": "2. Kullanım Lisansı",
+      "text": "Bu lisans kapsamında şunları yapamazsınız:",
+      "list": [
+        "Ticari kullanım için materyalleri değiştirmek veya kopyalamak;",
+        "Sitedeki herhangi bir yazılımı kaynak koduna dönüştürmeye veya tersine mühendislik yapmaya çalışmak;",
+        "Herhangi bir telif hakkı veya diğer mülkiyet notlarını kaldırmak;",
+        "Materyalleri başka bir kişiye aktarmak veya materyalleri 'aynalamak'."
+      ]
+    },
+    "section3": {
+      "title": "3. Geçerli Kanun",
+      "text": "Bu hüküm ve koşullar {{country}} yasalarına tabidir ve bu yasalara göre yorumlanır."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Çerez Politikası",
+    "lastUpdated": "10 Nisan 2026",
+    "section1": {
+      "title": "1. Çerezler Nedir?",
+      "text": "Çerezler, bir web sitesini ziyaret ettiğinizde bilgisayarınıza veya mobil cihazınıza yerleştirilen küçük metin dosyalarıdır. Web sitelerinin daha verimli çalışmasını sağlamak ve site sahiplerine bilgi sağlamak için yaygın olarak kullanılırlar."
+    },
+    "section2": {
+      "title": "2. Çerezleri Nasıl Kullanıyoruz",
+      "text": "Çerezleri aşağıdakiler de dahil olmak üzere çeşitli nedenlerle kullanıyoruz:",
+      "list": [
+        {
+          "label": "Zorunlu Çerezler:",
+          "desc": "Web sitesinin çalışması için gereklidir (örneğin, güvenlik ve erişilebilirlik)."
+        },
+        {
+          "label": "Performans Çerezleri:",
+          "desc": "Bilgileri anonim olarak toplayıp raporlayarak ziyaretçilerin sitemizle nasıl etkileşime girdiğini anlamamıza yardımcı olur."
+        },
+        {
+          "label": "İşlevsellik Çerezleri:",
+          "desc": "Gelişmiş özellikler sunmak için sitenin yaptığınız seçimleri (diliniz gibi) hatırlamasını sağlar."
+        }
+      ]
+    },
+    "section3": {
+      "title": "3. Tercihlerinizi Yönetme",
+      "textBefore": "Çoğu web tarayıcısı, tarayıcı ayarları aracılığıyla çoğu çerezin bir dereceye kadar kontrol edilmesine izin verir. Hangi çerezlerin ayarlandığını nasıl göreceğiniz ve bunları nasıl yönetip sileceğiniz dahil olmak üzere çerezler hakkında daha fazla bilgi edinmek için şu adresi ziyaret edin: ",
+      "linkText": "allaboutcookies.org"
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "HeroBlock": {
+    "badge": "Premium Derinlemesine Temizlik Uzmanı",
+    "titleStart": "Her temizlik",
+    "titleAccent": "profesyonel değildir.",
+    "description": "Yüzey parıltısının ötesine geçen detaylarla gözle görülür bir farkı yaşayın. Mülkünüze mutlak ve uzun ömürlü bir ferahlık kazandırmak için gizli toz katmanlarını ve derin kirleri hedefliyoruz.",
+    "feature1": "Derin Kir Çıkarma",
+    "feature2": "Tam Alan Dezenfeksiyonu",
+    "feature3": "Leke ve Koku Giderme",
+    "ctaWhatsApp": "WhatsApp'tan Fiyat Al",
+    "ctaCall": "Hemen Ara"
+  },
+
+  "TrustBlock": {
+    "eco": "%100 Çevre Dostu",
+    "guarantee": "Kusursuz Temizlik Garantisi",
+    "equip": "Profesyonel Ekipmanlar",
+    "safe": "Çocuk ve Evcil Hayvan Dostu",
+    "vetted": "Güvenilir Profesyoneller",
+    "price": "Sıfır Gizli Ücret",
+    "stain": "Leke Çıkarma Uzmanları",
+    "satisfy": "%100 Müşteri Memnuniyeti"
+  },
+
+  "ServiceTeaserBlock": {
+    "badge": "Neler Yapıyoruz",
+    "headingStart": "Alanınıza özel",
+    "headingAccent": "profesyonel temizlik.",
+    "viewAll": "Tüm Hizmetleri Gör",
+    "details": "Detaylar",
+    "services": {
+      "deep": {
+        "title": "Derinlemesine Temizlik",
+        "subtitle": "Kapsamlı Restorasyon",
+        "description": "Derinlemesine temizlik hizmetimiz, belirgin şekilde daha ferah ve hijyenik bir ortam sağlamak için birikmiş kir, yağ ve gizli kalıntıları hedefler."
+      },
+      "drycleaning": {
+        "title": "Kuru Temizleme",
+        "subtitle": "Hassas Tekstil Bakımı",
+        "description": "Halıları, döşemeleri ve kumaşları aşırı doyurmadan tazeleyen, hassas lifleri ve dokuları koruyan düşük nemli bir işlem."
+      },
+      "construction": {
+        "title": "İnşaat Sonrası",
+        "subtitle": "İnce Toz Giderme",
+        "description": "İnşaat tozu, boya izleri ve yapışkan kalıntılarının hassas bir şekilde temizlenmesi. Yeni yenilenmiş alanları kullanıma hazır ortamlara dönüştürüyoruz."
+      },
+      "corporate": {
+        "title": "Kurumsal Temizlik",
+        "subtitle": "Profesyonel Çalışma Alanları",
+        "description": "İşletmenizin yüksek standartlarını yansıtan ve iş yeri verimliliğini artıran temiz, düzenli ve hijyenik çalışma ortamları sağlıyoruz."
+      }
+    }
+  },
+
+  "CalculatorBlock": {
+    "badge": "Anında Fiyat Tahmini",
+    "headingStart": "Şeffaf fiyatlandırma.",
+    "headingAccent": "Sıfır gizli ücret.",
+    "step1Title": "1. Hizmetleri Seçin",
+    "step2Title": "2. Detayları Belirtin",
+    "rangeMin": "20 m²",
+    "rangeMax": "500+ m²",
+    "sidebarTitle": "Fiyat Tahmininiz",
+    "summaryArea": "Alana Dayalı Hizmetler",
+    "summaryItems": "Özel Eşyalar ve Mobilyalar",
+    "estimatedTotal": "Tahmini Toplam",
+    "disclaimer": "*Bu yaklaşık bir tahmindir. 'Anlaşmaya bağlı' hizmetler (Ofisler veya Camlar gibi) bu toplama dahil edilmez. Kesin fiyat işe başlamadan önce onaylanır.",
+    "ctaWhatsApp": "WhatsApp ile Rezerve Et",
+    "ctaWhatsAppShort": "Hemen Rezerve Et",
+    "priceByAgreement": "Anlaşmaya Bağlı",
+    "none": "Yok",
+    "msgGreet": "Merhaba Hilli Tämizlik!",
+    "msgIntro": "Sitenizdeki hesaplayıcıyı kullandım ve rezervasyon yaptırmak istiyorum:",
+    "msgServices": "Seçilen Hizmetler",
+    "msgDetails": "Detaylar ve Miktarlar",
+    "msgTotal": "Tahmini Toplam",
+    "msgOutro": "Bu tarihler müsait mi?",
+    "services": {
+      "routine": {
+        "label": "Rutin / Periyodik Bakım",
+        "desc": "Standart temizlik"
+      },
+      "deep": {
+        "label": "Derinlemesine Temizlik",
+        "desc": "Kapsamlı ve detaylı"
+      },
+      "construction": {
+        "label": "İnşaat / Tadilat Sonrası",
+        "desc": "Yenileme sonrası temizlik"
+      },
+      "offices": {
+        "label": "Ofisler ve Kurumlar",
+        "desc": "Kişiselleştirilmiş temizlik planları"
+      },
+      "dry_cleaning": {
+        "label": "Kuru Temizleme",
+        "desc": "Mobilya ve halılar"
+      },
+      "pressure_washing": {
+        "label": "Basınçlı Yıkama",
+        "desc": "Avlular, granit, fayans"
+      },
+      "facade": {
+        "label": "Dış Cephe Temizliği",
+        "desc": "Bina dış yüzey yıkaması"
+      },
+      "chandelier": {
+        "label": "Avize Temizliği",
+        "desc": "Tüm boyut ve karmaşıklıklar"
+      },
+      "window": {
+        "label": "Cam Temizliği",
+        "desc": "Tüm cam boyutları için"
+      }
+    },
+    "items": {
+      "propertySqm": "Mülk Boyutu",
+      "carpet": "Halı Yıkama",
+      "sofa2": "2'li Kanepe",
+      "sofa3": "3'lü Kanepe",
+      "sofa_set": "Koltuk Takımı (3+2+1)",
+      "mattress_big": "Büyük Yatak",
+      "mattress_small": "Küçük / Çocuk Yatağı",
+      "chand_small": "Küçük Avize",
+      "chand_med": "Orta Boy Avize",
+      "chand_large": "Büyük Avize"
+    }
+  }
+}
