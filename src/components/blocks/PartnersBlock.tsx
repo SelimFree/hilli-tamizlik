@@ -88,7 +88,7 @@ export function PartnersBlock() {
                                         alt={partner.name}
                                         className={cn(
                                             "max-h-12 sm:max-h-16 w-auto object-contain transition-all duration-500 ease-in-out cursor-pointer",
-                                            "opacity-50 hover:opacity-100 hover:scale-110"
+                                            "hover:scale-110"
                                         )}
                                     />
                                 </div>
