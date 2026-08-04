@@ -4,6 +4,7 @@ import { MissionBlock } from "../components/blocks/MissionBlock";
 import { SecurityVettingBlock } from "../components/blocks/SecurityVettingBlock";
 import { EquipmentBlock } from "../components/blocks/EquipmentBlock";
 import { RecommendationsBlock } from "../components/blocks/RecommendationsBlock";
+import { PartnersBlock } from "../components/blocks/PartnersBlock";
 
 export default function AboutPage() {
 
@@ -16,6 +17,7 @@ export default function AboutPage() {
             <SecurityVettingBlock />
             <EquipmentBlock />
             <RecommendationsBlock />
+            <PartnersBlock />
         </div>
     );
 }

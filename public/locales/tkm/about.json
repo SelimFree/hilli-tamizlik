@@ -98,5 +98,12 @@
         "snippet": "3000 kw.m. gowrak söwda meýdançalarynyň ýokary hilli toplumlaýyn arassalanyşyny öwüp, iri göwrümli taslamalar üçin maslahat berýär."
       }
     }
+  },
+
+  "PartnersBlock": {
+    "badge": "Görnükli Müşderiler",
+    "headingStart": "Bilelikde",
+    "headingAccent": "Işleşen Kompaniýalarymyz",
+    "description": "Dürli taslamalarda hyzmatdaşlyk etmek we hyzmatlarymyzy hödürlemek mümkinçiligi dörän guramalaryň toplumy."
   }
 }

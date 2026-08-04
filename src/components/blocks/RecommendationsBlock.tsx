@@ -85,7 +85,7 @@ export function RecommendationsBlock() {
               {RECOMMENDATIONS.map((rec) => (
                 <div
                   key={rec.id}
-                  className="shrink-0 w-[85vw] sm:w-[420px] snap-center flex"
+                  className="shrink-0 w-[85vw] sm:w-105 snap-center flex"
                 >
                   <a
                     href={rec.file}

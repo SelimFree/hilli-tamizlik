@@ -98,5 +98,12 @@
         "snippet": "Highly recommends for large-scale projects, praising the high-quality comprehensive cleaning of over 3,000 sqm of retail spaces."
       }
     }
+  },
+
+  "PartnersBlock": {
+    "badge": "Notable Clients",
+    "headingStart": "Companies We've",
+    "headingAccent": "Worked With",
+    "description": "A selection of organizations we have had the opportunity to collaborate with and provide our services to on various projects."
   }
 }

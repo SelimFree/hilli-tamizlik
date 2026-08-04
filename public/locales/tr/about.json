@@ -98,5 +98,12 @@
         "snippet": "3.000 metrekareyi aşan perakende alanlarının yüksek kaliteli ve kapsamlı temizliğini överek büyük ölçekli projeler için şiddetle tavsiye ediyor."
       }
     }
+  },
+
+  "PartnersBlock": {
+    "badge": "Önemli Müşteriler",
+    "headingStart": "Birlikte",
+    "headingAccent": "Çalıştığımız Şirketler",
+    "description": "Çeşitli projelerde işbirliği yapma ve hizmetlerimizi sunma fırsatı bulduğumuz organizasyonlardan bir seçki."
   }
 }
